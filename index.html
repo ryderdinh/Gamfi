@@ -1,0 +1,6444 @@
+<html
+	lang="zxx"
+	class="js flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"
+>
+	<head>
+		<!-- meta tag -->
+		<meta charset="utf-8" />
+		<title>GamFi - Home 2</title>
+		<meta name="description" content="" />
+		<!-- responsive tag -->
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- favicon -->
+		<link rel="apple-touch-icon" href="assets/images/fav.png" />
+		<link
+			rel="shortcut icon"
+			type="image/x-icon"
+			href="assets/images/fav.png"
+		/>
+		<!-- Bootstrap v4.4.1 css -->
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="assets/css/bootstrap.min.css"
+		/>
+		<!-- animate css -->
+		<link rel="stylesheet" type="text/css" href="assets/css/animate.css" />
+		<!-- magnific css -->
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="assets/css/magnific-popup.css"
+		/>
+		<!-- owl.carousel css -->
+		<link rel="stylesheet" type="text/css" href="assets/css/owl.carousel.css" />
+		<!-- off canvas css -->
+		<link rel="stylesheet" type="text/css" href="assets/css/off-canvas.css" />
+		<!-- flaticon css  -->
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="assets/css/ico-moon-fonts.css"
+		/>
+		<!-- font awesome icon css -->
+		<link rel="stylesheet" type="text/css" href="assets/css/all.min.css" />
+		<!-- spacing css -->
+		<link rel="stylesheet" type="text/css" href="assets/css/sc-spacing.css" />
+		<!--Slick Slider CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/css/slick.css" />
+		<link rel="stylesheet" href="assets/css/slick-theme.min.css" />
+		<!-- style css -->
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+		<!-- responsive css -->
+		<link rel="stylesheet" type="text/css" href="assets/css/responsive.css" />
+		<style>
+			@-webkit-keyframes swal2-show {
+				0% {
+					-webkit-transform: scale(0.7);
+					transform: scale(0.7);
+				}
+				45% {
+					-webkit-transform: scale(1.05);
+					transform: scale(1.05);
+				}
+				80% {
+					-webkit-transform: scale(0.95);
+					transform: scale(0.95);
+				}
+				100% {
+					-webkit-transform: scale(1);
+					transform: scale(1);
+				}
+			}
+			@keyframes swal2-show {
+				0% {
+					-webkit-transform: scale(0.7);
+					transform: scale(0.7);
+				}
+				45% {
+					-webkit-transform: scale(1.05);
+					transform: scale(1.05);
+				}
+				80% {
+					-webkit-transform: scale(0.95);
+					transform: scale(0.95);
+				}
+				100% {
+					-webkit-transform: scale(1);
+					transform: scale(1);
+				}
+			}
+			@-webkit-keyframes swal2-hide {
+				0% {
+					-webkit-transform: scale(1);
+					transform: scale(1);
+					opacity: 1;
+				}
+				100% {
+					-webkit-transform: scale(0.5);
+					transform: scale(0.5);
+					opacity: 0;
+				}
+			}
+			@keyframes swal2-hide {
+				0% {
+					-webkit-transform: scale(1);
+					transform: scale(1);
+					opacity: 1;
+				}
+				100% {
+					-webkit-transform: scale(0.5);
+					transform: scale(0.5);
+					opacity: 0;
+				}
+			}
+			@-webkit-keyframes swal2-animate-success-line-tip {
+				0% {
+					top: 1.1875em;
+					left: 0.0625em;
+					width: 0;
+				}
+				54% {
+					top: 1.0625em;
+					left: 0.125em;
+					width: 0;
+				}
+				70% {
+					top: 2.1875em;
+					left: -0.375em;
+					width: 3.125em;
+				}
+				84% {
+					top: 3em;
+					left: 1.3125em;
+					width: 1.0625em;
+				}
+				100% {
+					top: 2.8125em;
+					left: 0.875em;
+					width: 1.5625em;
+				}
+			}
+			@keyframes swal2-animate-success-line-tip {
+				0% {
+					top: 1.1875em;
+					left: 0.0625em;
+					width: 0;
+				}
+				54% {
+					top: 1.0625em;
+					left: 0.125em;
+					width: 0;
+				}
+				70% {
+					top: 2.1875em;
+					left: -0.375em;
+					width: 3.125em;
+				}
+				84% {
+					top: 3em;
+					left: 1.3125em;
+					width: 1.0625em;
+				}
+				100% {
+					top: 2.8125em;
+					left: 0.875em;
+					width: 1.5625em;
+				}
+			}
+			@-webkit-keyframes swal2-animate-success-line-long {
+				0% {
+					top: 3.375em;
+					right: 2.875em;
+					width: 0;
+				}
+				65% {
+					top: 3.375em;
+					right: 2.875em;
+					width: 0;
+				}
+				84% {
+					top: 2.1875em;
+					right: 0;
+					width: 3.4375em;
+				}
+				100% {
+					top: 2.375em;
+					right: 0.5em;
+					width: 2.9375em;
+				}
+			}
+			@keyframes swal2-animate-success-line-long {
+				0% {
+					top: 3.375em;
+					right: 2.875em;
+					width: 0;
+				}
+				65% {
+					top: 3.375em;
+					right: 2.875em;
+					width: 0;
+				}
+				84% {
+					top: 2.1875em;
+					right: 0;
+					width: 3.4375em;
+				}
+				100% {
+					top: 2.375em;
+					right: 0.5em;
+					width: 2.9375em;
+				}
+			}
+			@-webkit-keyframes swal2-rotate-success-circular-line {
+				0% {
+					-webkit-transform: rotate(-45deg);
+					transform: rotate(-45deg);
+				}
+				5% {
+					-webkit-transform: rotate(-45deg);
+					transform: rotate(-45deg);
+				}
+				12% {
+					-webkit-transform: rotate(-405deg);
+					transform: rotate(-405deg);
+				}
+				100% {
+					-webkit-transform: rotate(-405deg);
+					transform: rotate(-405deg);
+				}
+			}
+			@keyframes swal2-rotate-success-circular-line {
+				0% {
+					-webkit-transform: rotate(-45deg);
+					transform: rotate(-45deg);
+				}
+				5% {
+					-webkit-transform: rotate(-45deg);
+					transform: rotate(-45deg);
+				}
+				12% {
+					-webkit-transform: rotate(-405deg);
+					transform: rotate(-405deg);
+				}
+				100% {
+					-webkit-transform: rotate(-405deg);
+					transform: rotate(-405deg);
+				}
+			}
+			@-webkit-keyframes swal2-animate-error-x-mark {
+				0% {
+					margin-top: 1.625em;
+					-webkit-transform: scale(0.4);
+					transform: scale(0.4);
+					opacity: 0;
+				}
+				50% {
+					margin-top: 1.625em;
+					-webkit-transform: scale(0.4);
+					transform: scale(0.4);
+					opacity: 0;
+				}
+				80% {
+					margin-top: -0.375em;
+					-webkit-transform: scale(1.15);
+					transform: scale(1.15);
+				}
+				100% {
+					margin-top: 0;
+					-webkit-transform: scale(1);
+					transform: scale(1);
+					opacity: 1;
+				}
+			}
+			@keyframes swal2-animate-error-x-mark {
+				0% {
+					margin-top: 1.625em;
+					-webkit-transform: scale(0.4);
+					transform: scale(0.4);
+					opacity: 0;
+				}
+				50% {
+					margin-top: 1.625em;
+					-webkit-transform: scale(0.4);
+					transform: scale(0.4);
+					opacity: 0;
+				}
+				80% {
+					margin-top: -0.375em;
+					-webkit-transform: scale(1.15);
+					transform: scale(1.15);
+				}
+				100% {
+					margin-top: 0;
+					-webkit-transform: scale(1);
+					transform: scale(1);
+					opacity: 1;
+				}
+			}
+			@-webkit-keyframes swal2-animate-error-icon {
+				0% {
+					-webkit-transform: rotateX(100deg);
+					transform: rotateX(100deg);
+					opacity: 0;
+				}
+				100% {
+					-webkit-transform: rotateX(0);
+					transform: rotateX(0);
+					opacity: 1;
+				}
+			}
+			@keyframes swal2-animate-error-icon {
+				0% {
+					-webkit-transform: rotateX(100deg);
+					transform: rotateX(100deg);
+					opacity: 0;
+				}
+				100% {
+					-webkit-transform: rotateX(0);
+					transform: rotateX(0);
+					opacity: 1;
+				}
+			}
+			body.swal2-toast-shown .swal2-container {
+				background-color: transparent;
+			}
+			body.swal2-toast-shown .swal2-container.swal2-shown {
+				background-color: transparent;
+			}
+			body.swal2-toast-shown .swal2-container.swal2-top {
+				top: 0;
+				right: auto;
+				bottom: auto;
+				left: 50%;
+				-webkit-transform: translateX(-50%);
+				transform: translateX(-50%);
+			}
+			body.swal2-toast-shown .swal2-container.swal2-top-end,
+			body.swal2-toast-shown .swal2-container.swal2-top-right {
+				top: 0;
+				right: 0;
+				bottom: auto;
+				left: auto;
+			}
+			body.swal2-toast-shown .swal2-container.swal2-top-left,
+			body.swal2-toast-shown .swal2-container.swal2-top-start {
+				top: 0;
+				right: auto;
+				bottom: auto;
+				left: 0;
+			}
+			body.swal2-toast-shown .swal2-container.swal2-center-left,
+			body.swal2-toast-shown .swal2-container.swal2-center-start {
+				top: 50%;
+				right: auto;
+				bottom: auto;
+				left: 0;
+				-webkit-transform: translateY(-50%);
+				transform: translateY(-50%);
+			}
+			body.swal2-toast-shown .swal2-container.swal2-center {
+				top: 50%;
+				right: auto;
+				bottom: auto;
+				left: 50%;
+				-webkit-transform: translate(-50%, -50%);
+				transform: translate(-50%, -50%);
+			}
+			body.swal2-toast-shown .swal2-container.swal2-center-end,
+			body.swal2-toast-shown .swal2-container.swal2-center-right {
+				top: 50%;
+				right: 0;
+				bottom: auto;
+				left: auto;
+				-webkit-transform: translateY(-50%);
+				transform: translateY(-50%);
+			}
+			body.swal2-toast-shown .swal2-container.swal2-bottom-left,
+			body.swal2-toast-shown .swal2-container.swal2-bottom-start {
+				top: auto;
+				right: auto;
+				bottom: 0;
+				left: 0;
+			}
+			body.swal2-toast-shown .swal2-container.swal2-bottom {
+				top: auto;
+				right: auto;
+				bottom: 0;
+				left: 50%;
+				-webkit-transform: translateX(-50%);
+				transform: translateX(-50%);
+			}
+			body.swal2-toast-shown .swal2-container.swal2-bottom-end,
+			body.swal2-toast-shown .swal2-container.swal2-bottom-right {
+				top: auto;
+				right: 0;
+				bottom: 0;
+				left: auto;
+			}
+			body.swal2-toast-column .swal2-toast {
+				flex-direction: column;
+				align-items: stretch;
+			}
+			body.swal2-toast-column .swal2-toast .swal2-actions {
+				flex: 1;
+				align-self: stretch;
+				height: 2.2em;
+				margin-top: 0.3125em;
+			}
+			body.swal2-toast-column .swal2-toast .swal2-loading {
+				justify-content: center;
+			}
+			body.swal2-toast-column .swal2-toast .swal2-input {
+				height: 2em;
+				margin: 0.3125em auto;
+				font-size: 1em;
+			}
+			body.swal2-toast-column .swal2-toast .swal2-validation-message {
+				font-size: 1em;
+			}
+			.swal2-popup.swal2-toast {
+				flex-direction: row;
+				align-items: center;
+				width: auto;
+				padding: 0.625em;
+				box-shadow: 0 0 0.625em #d9d9d9;
+				overflow-y: hidden;
+			}
+			.swal2-popup.swal2-toast .swal2-header {
+				flex-direction: row;
+			}
+			.swal2-popup.swal2-toast .swal2-title {
+				flex-grow: 1;
+				justify-content: flex-start;
+				margin: 0 0.6em;
+				font-size: 1em;
+			}
+			.swal2-popup.swal2-toast .swal2-footer {
+				margin: 0.5em 0 0;
+				padding: 0.5em 0 0;
+				font-size: 0.8em;
+			}
+			.swal2-popup.swal2-toast .swal2-close {
+				position: initial;
+				width: 0.8em;
+				height: 0.8em;
+				line-height: 0.8;
+			}
+			.swal2-popup.swal2-toast .swal2-content {
+				justify-content: flex-start;
+				font-size: 1em;
+			}
+			.swal2-popup.swal2-toast .swal2-icon {
+				width: 2em;
+				min-width: 2em;
+				height: 2em;
+				margin: 0;
+			}
+			.swal2-popup.swal2-toast .swal2-icon-text {
+				font-size: 2em;
+				font-weight: 700;
+				line-height: 1em;
+			}
+			.swal2-popup.swal2-toast .swal2-icon.swal2-success .swal2-success-ring {
+				width: 2em;
+				height: 2em;
+			}
+			.swal2-popup.swal2-toast
+				.swal2-icon.swal2-error
+				[class^='swal2-x-mark-line'] {
+				top: 0.875em;
+				width: 1.375em;
+			}
+			.swal2-popup.swal2-toast
+				.swal2-icon.swal2-error
+				[class^='swal2-x-mark-line'][class$='left'] {
+				left: 0.3125em;
+			}
+			.swal2-popup.swal2-toast
+				.swal2-icon.swal2-error
+				[class^='swal2-x-mark-line'][class$='right'] {
+				right: 0.3125em;
+			}
+			.swal2-popup.swal2-toast .swal2-actions {
+				height: auto;
+				margin: 0 0.3125em;
+			}
+			.swal2-popup.swal2-toast .swal2-styled {
+				margin: 0 0.3125em;
+				padding: 0.3125em 0.625em;
+				font-size: 1em;
+			}
+			.swal2-popup.swal2-toast .swal2-styled:focus {
+				box-shadow: 0 0 0 0.0625em #fff, 0 0 0 0.125em rgba(50, 100, 150, 0.4);
+			}
+			.swal2-popup.swal2-toast .swal2-success {
+				border-color: #a5dc86;
+			}
+			.swal2-popup.swal2-toast
+				.swal2-success
+				[class^='swal2-success-circular-line'] {
+				position: absolute;
+				width: 2em;
+				height: 2.8125em;
+				-webkit-transform: rotate(45deg);
+				transform: rotate(45deg);
+				border-radius: 50%;
+			}
+			.swal2-popup.swal2-toast
+				.swal2-success
+				[class^='swal2-success-circular-line'][class$='left'] {
+				top: -0.25em;
+				left: -0.9375em;
+				-webkit-transform: rotate(-45deg);
+				transform: rotate(-45deg);
+				-webkit-transform-origin: 2em 2em;
+				transform-origin: 2em 2em;
+				border-radius: 4em 0 0 4em;
+			}
+			.swal2-popup.swal2-toast
+				.swal2-success
+				[class^='swal2-success-circular-line'][class$='right'] {
+				top: -0.25em;
+				left: 0.9375em;
+				-webkit-transform-origin: 0 2em;
+				transform-origin: 0 2em;
+				border-radius: 0 4em 4em 0;
+			}
+			.swal2-popup.swal2-toast .swal2-success .swal2-success-ring {
+				width: 2em;
+				height: 2em;
+			}
+			.swal2-popup.swal2-toast .swal2-success .swal2-success-fix {
+				top: 0;
+				left: 0.4375em;
+				width: 0.4375em;
+				height: 2.6875em;
+			}
+			.swal2-popup.swal2-toast .swal2-success [class^='swal2-success-line'] {
+				height: 0.3125em;
+			}
+			.swal2-popup.swal2-toast
+				.swal2-success
+				[class^='swal2-success-line'][class$='tip'] {
+				top: 1.125em;
+				left: 0.1875em;
+				width: 0.75em;
+			}
+			.swal2-popup.swal2-toast
+				.swal2-success
+				[class^='swal2-success-line'][class$='long'] {
+				top: 0.9375em;
+				right: 0.1875em;
+				width: 1.375em;
+			}
+			.swal2-popup.swal2-toast.swal2-show {
+				-webkit-animation: showSweetToast 0.5s;
+				animation: showSweetToast 0.5s;
+			}
+			.swal2-popup.swal2-toast.swal2-hide {
+				-webkit-animation: hideSweetToast 0.2s forwards;
+				animation: hideSweetToast 0.2s forwards;
+			}
+			.swal2-popup.swal2-toast
+				.swal2-animate-success-icon
+				.swal2-success-line-tip {
+				-webkit-animation: animate-toast-success-tip 0.75s;
+				animation: animate-toast-success-tip 0.75s;
+			}
+			.swal2-popup.swal2-toast
+				.swal2-animate-success-icon
+				.swal2-success-line-long {
+				-webkit-animation: animate-toast-success-long 0.75s;
+				animation: animate-toast-success-long 0.75s;
+			}
+			@-webkit-keyframes showSweetToast {
+				0% {
+					-webkit-transform: translateY(-0.625em) rotateZ(2deg);
+					transform: translateY(-0.625em) rotateZ(2deg);
+					opacity: 0;
+				}
+				33% {
+					-webkit-transform: translateY(0) rotateZ(-2deg);
+					transform: translateY(0) rotateZ(-2deg);
+					opacity: 0.5;
+				}
+				66% {
+					-webkit-transform: translateY(0.3125em) rotateZ(2deg);
+					transform: translateY(0.3125em) rotateZ(2deg);
+					opacity: 0.7;
+				}
+				100% {
+					-webkit-transform: translateY(0) rotateZ(0);
+					transform: translateY(0) rotateZ(0);
+					opacity: 1;
+				}
+			}
+			@keyframes showSweetToast {
+				0% {
+					-webkit-transform: translateY(-0.625em) rotateZ(2deg);
+					transform: translateY(-0.625em) rotateZ(2deg);
+					opacity: 0;
+				}
+				33% {
+					-webkit-transform: translateY(0) rotateZ(-2deg);
+					transform: translateY(0) rotateZ(-2deg);
+					opacity: 0.5;
+				}
+				66% {
+					-webkit-transform: translateY(0.3125em) rotateZ(2deg);
+					transform: translateY(0.3125em) rotateZ(2deg);
+					opacity: 0.7;
+				}
+				100% {
+					-webkit-transform: translateY(0) rotateZ(0);
+					transform: translateY(0) rotateZ(0);
+					opacity: 1;
+				}
+			}
+			@-webkit-keyframes hideSweetToast {
+				0% {
+					opacity: 1;
+				}
+				33% {
+					opacity: 0.5;
+				}
+				100% {
+					-webkit-transform: rotateZ(1deg);
+					transform: rotateZ(1deg);
+					opacity: 0;
+				}
+			}
+			@keyframes hideSweetToast {
+				0% {
+					opacity: 1;
+				}
+				33% {
+					opacity: 0.5;
+				}
+				100% {
+					-webkit-transform: rotateZ(1deg);
+					transform: rotateZ(1deg);
+					opacity: 0;
+				}
+			}
+			@-webkit-keyframes animate-toast-success-tip {
+				0% {
+					top: 0.5625em;
+					left: 0.0625em;
+					width: 0;
+				}
+				54% {
+					top: 0.125em;
+					left: 0.125em;
+					width: 0;
+				}
+				70% {
+					top: 0.625em;
+					left: -0.25em;
+					width: 1.625em;
+				}
+				84% {
+					top: 1.0625em;
+					left: 0.75em;
+					width: 0.5em;
+				}
+				100% {
+					top: 1.125em;
+					left: 0.1875em;
+					width: 0.75em;
+				}
+			}
+			@keyframes animate-toast-success-tip {
+				0% {
+					top: 0.5625em;
+					left: 0.0625em;
+					width: 0;
+				}
+				54% {
+					top: 0.125em;
+					left: 0.125em;
+					width: 0;
+				}
+				70% {
+					top: 0.625em;
+					left: -0.25em;
+					width: 1.625em;
+				}
+				84% {
+					top: 1.0625em;
+					left: 0.75em;
+					width: 0.5em;
+				}
+				100% {
+					top: 1.125em;
+					left: 0.1875em;
+					width: 0.75em;
+				}
+			}
+			@-webkit-keyframes animate-toast-success-long {
+				0% {
+					top: 1.625em;
+					right: 1.375em;
+					width: 0;
+				}
+				65% {
+					top: 1.25em;
+					right: 0.9375em;
+					width: 0;
+				}
+				84% {
+					top: 0.9375em;
+					right: 0;
+					width: 1.125em;
+				}
+				100% {
+					top: 0.9375em;
+					right: 0.1875em;
+					width: 1.375em;
+				}
+			}
+			@keyframes animate-toast-success-long {
+				0% {
+					top: 1.625em;
+					right: 1.375em;
+					width: 0;
+				}
+				65% {
+					top: 1.25em;
+					right: 0.9375em;
+					width: 0;
+				}
+				84% {
+					top: 0.9375em;
+					right: 0;
+					width: 1.125em;
+				}
+				100% {
+					top: 0.9375em;
+					right: 0.1875em;
+					width: 1.375em;
+				}
+			}
+			body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
+				overflow: hidden;
+			}
+			body.swal2-height-auto {
+				height: auto !important;
+			}
+			body.swal2-no-backdrop .swal2-shown {
+				top: auto;
+				right: auto;
+				bottom: auto;
+				left: auto;
+				background-color: transparent;
+			}
+			body.swal2-no-backdrop .swal2-shown > .swal2-modal {
+				box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+			}
+			body.swal2-no-backdrop .swal2-shown.swal2-top {
+				top: 0;
+				left: 50%;
+				-webkit-transform: translateX(-50%);
+				transform: translateX(-50%);
+			}
+			body.swal2-no-backdrop .swal2-shown.swal2-top-left,
+			body.swal2-no-backdrop .swal2-shown.swal2-top-start {
+				top: 0;
+				left: 0;
+			}
+			body.swal2-no-backdrop .swal2-shown.swal2-top-end,
+			body.swal2-no-backdrop .swal2-shown.swal2-top-right {
+				top: 0;
+				right: 0;
+			}
+			body.swal2-no-backdrop .swal2-shown.swal2-center {
+				top: 50%;
+				left: 50%;
+				-webkit-transform: translate(-50%, -50%);
+				transform: translate(-50%, -50%);
+			}
+			body.swal2-no-backdrop .swal2-shown.swal2-center-left,
+			body.swal2-no-backdrop .swal2-shown.swal2-center-start {
+				top: 50%;
+				left: 0;
+				-webkit-transform: translateY(-50%);
+				transform: translateY(-50%);
+			}
+			body.swal2-no-backdrop .swal2-shown.swal2-center-end,
+			body.swal2-no-backdrop .swal2-shown.swal2-center-right {
+				top: 50%;
+				right: 0;
+				-webkit-transform: translateY(-50%);
+				transform: translateY(-50%);
+			}
+			body.swal2-no-backdrop .swal2-shown.swal2-bottom {
+				bottom: 0;
+				left: 50%;
+				-webkit-transform: translateX(-50%);
+				transform: translateX(-50%);
+			}
+			body.swal2-no-backdrop .swal2-shown.swal2-bottom-left,
+			body.swal2-no-backdrop .swal2-shown.swal2-bottom-start {
+				bottom: 0;
+				left: 0;
+			}
+			body.swal2-no-backdrop .swal2-shown.swal2-bottom-end,
+			body.swal2-no-backdrop .swal2-shown.swal2-bottom-right {
+				right: 0;
+				bottom: 0;
+			}
+			.swal2-container {
+				display: flex;
+				position: fixed;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				flex-direction: row;
+				align-items: center;
+				justify-content: center;
+				padding: 10px;
+				background-color: transparent;
+				z-index: 1060;
+				overflow-x: hidden;
+				-webkit-overflow-scrolling: touch;
+			}
+			.swal2-container.swal2-top {
+				align-items: flex-start;
+			}
+			.swal2-container.swal2-top-left,
+			.swal2-container.swal2-top-start {
+				align-items: flex-start;
+				justify-content: flex-start;
+			}
+			.swal2-container.swal2-top-end,
+			.swal2-container.swal2-top-right {
+				align-items: flex-start;
+				justify-content: flex-end;
+			}
+			.swal2-container.swal2-center {
+				align-items: center;
+			}
+			.swal2-container.swal2-center-left,
+			.swal2-container.swal2-center-start {
+				align-items: center;
+				justify-content: flex-start;
+			}
+			.swal2-container.swal2-center-end,
+			.swal2-container.swal2-center-right {
+				align-items: center;
+				justify-content: flex-end;
+			}
+			.swal2-container.swal2-bottom {
+				align-items: flex-end;
+			}
+			.swal2-container.swal2-bottom-left,
+			.swal2-container.swal2-bottom-start {
+				align-items: flex-end;
+				justify-content: flex-start;
+			}
+			.swal2-container.swal2-bottom-end,
+			.swal2-container.swal2-bottom-right {
+				align-items: flex-end;
+				justify-content: flex-end;
+			}
+			.swal2-container.swal2-grow-fullscreen > .swal2-modal {
+				display: flex !important;
+				flex: 1;
+				align-self: stretch;
+				justify-content: center;
+			}
+			.swal2-container.swal2-grow-row > .swal2-modal {
+				display: flex !important;
+				flex: 1;
+				align-content: center;
+				justify-content: center;
+			}
+			.swal2-container.swal2-grow-column {
+				flex: 1;
+				flex-direction: column;
+			}
+			.swal2-container.swal2-grow-column.swal2-bottom,
+			.swal2-container.swal2-grow-column.swal2-center,
+			.swal2-container.swal2-grow-column.swal2-top {
+				align-items: center;
+			}
+			.swal2-container.swal2-grow-column.swal2-bottom-left,
+			.swal2-container.swal2-grow-column.swal2-bottom-start,
+			.swal2-container.swal2-grow-column.swal2-center-left,
+			.swal2-container.swal2-grow-column.swal2-center-start,
+			.swal2-container.swal2-grow-column.swal2-top-left,
+			.swal2-container.swal2-grow-column.swal2-top-start {
+				align-items: flex-start;
+			}
+			.swal2-container.swal2-grow-column.swal2-bottom-end,
+			.swal2-container.swal2-grow-column.swal2-bottom-right,
+			.swal2-container.swal2-grow-column.swal2-center-end,
+			.swal2-container.swal2-grow-column.swal2-center-right,
+			.swal2-container.swal2-grow-column.swal2-top-end,
+			.swal2-container.swal2-grow-column.swal2-top-right {
+				align-items: flex-end;
+			}
+			.swal2-container.swal2-grow-column > .swal2-modal {
+				display: flex !important;
+				flex: 1;
+				align-content: center;
+				justify-content: center;
+			}
+			.swal2-container:not(.swal2-top):not(.swal2-top-start):not(
+					.swal2-top-end
+				):not(.swal2-top-left):not(.swal2-top-right):not(
+					.swal2-center-start
+				):not(.swal2-center-end):not(.swal2-center-left):not(
+					.swal2-center-right
+				):not(.swal2-bottom):not(.swal2-bottom-start):not(
+					.swal2-bottom-end
+				):not(.swal2-bottom-left):not(.swal2-bottom-right):not(
+					.swal2-grow-fullscreen
+				)
+				> .swal2-modal {
+				margin: auto;
+			}
+			@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+				.swal2-container .swal2-modal {
+					margin: 0 !important;
+				}
+			}
+			.swal2-container.swal2-fade {
+				transition: background-color 0.1s;
+			}
+			.swal2-container.swal2-shown {
+				background-color: rgba(0, 0, 0, 0.4);
+			}
+			.swal2-popup {
+				display: none;
+				position: relative;
+				flex-direction: column;
+				justify-content: center;
+				width: 32em;
+				max-width: 100%;
+				padding: 1.25em;
+				border-radius: 0.3125em;
+				background: #fff;
+				font-family: inherit;
+				font-size: 1rem;
+				box-sizing: border-box;
+			}
+			.swal2-popup:focus {
+				outline: 0;
+			}
+			.swal2-popup.swal2-loading {
+				overflow-y: hidden;
+			}
+			.swal2-popup .swal2-header {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+			}
+			.swal2-popup .swal2-title {
+				display: block;
+				position: relative;
+				max-width: 100%;
+				margin: 0 0 0.4em;
+				padding: 0;
+				color: #595959;
+				font-size: 1.875em;
+				font-weight: 600;
+				text-align: center;
+				text-transform: none;
+				word-wrap: break-word;
+			}
+			.swal2-popup .swal2-actions {
+				flex-wrap: wrap;
+				align-items: center;
+				justify-content: center;
+				margin: 1.25em auto 0;
+				z-index: 1;
+			}
+			.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled[disabled] {
+				opacity: 0.4;
+			}
+			.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled:hover {
+				background-image: linear-gradient(
+					rgba(0, 0, 0, 0.1),
+					rgba(0, 0, 0, 0.1)
+				);
+			}
+			.swal2-popup .swal2-actions:not(.swal2-loading) .swal2-styled:active {
+				background-image: linear-gradient(
+					rgba(0, 0, 0, 0.2),
+					rgba(0, 0, 0, 0.2)
+				);
+			}
+			.swal2-popup .swal2-actions.swal2-loading .swal2-styled.swal2-confirm {
+				width: 2.5em;
+				height: 2.5em;
+				margin: 0.46875em;
+				padding: 0;
+				border: 0.25em solid transparent;
+				border-radius: 100%;
+				border-color: transparent;
+				background-color: transparent !important;
+				color: transparent;
+				cursor: default;
+				box-sizing: border-box;
+				-webkit-animation: swal2-rotate-loading 1.5s linear 0s infinite normal;
+				animation: swal2-rotate-loading 1.5s linear 0s infinite normal;
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+			.swal2-popup .swal2-actions.swal2-loading .swal2-styled.swal2-cancel {
+				margin-right: 30px;
+				margin-left: 30px;
+			}
+			.swal2-popup
+				.swal2-actions.swal2-loading
+				:not(.swal2-styled).swal2-confirm::after {
+				display: inline-block;
+				width: 15px;
+				height: 15px;
+				margin-left: 5px;
+				border: 3px solid #999;
+				border-radius: 50%;
+				border-right-color: transparent;
+				box-shadow: 1px 1px 1px #fff;
+				content: '';
+				-webkit-animation: swal2-rotate-loading 1.5s linear 0s infinite normal;
+				animation: swal2-rotate-loading 1.5s linear 0s infinite normal;
+			}
+			.swal2-popup .swal2-styled {
+				margin: 0.3125em;
+				padding: 0.625em 2em;
+				font-weight: 500;
+				box-shadow: none;
+			}
+			.swal2-popup .swal2-styled:not([disabled]) {
+				cursor: pointer;
+			}
+			.swal2-popup .swal2-styled.swal2-confirm {
+				border: 0;
+				border-radius: 0.25em;
+				background: initial;
+				background-color: #3085d6;
+				color: #fff;
+				font-size: 1.0625em;
+			}
+			.swal2-popup .swal2-styled.swal2-cancel {
+				border: 0;
+				border-radius: 0.25em;
+				background: initial;
+				background-color: #aaa;
+				color: #fff;
+				font-size: 1.0625em;
+			}
+			.swal2-popup .swal2-styled:focus {
+				outline: 0;
+				box-shadow: 0 0 0 2px #fff, 0 0 0 4px rgba(50, 100, 150, 0.4);
+			}
+			.swal2-popup .swal2-styled::-moz-focus-inner {
+				border: 0;
+			}
+			.swal2-popup .swal2-footer {
+				justify-content: center;
+				margin: 1.25em 0 0;
+				padding: 1em 0 0;
+				border-top: 1px solid #eee;
+				color: #545454;
+				font-size: 1em;
+			}
+			.swal2-popup .swal2-image {
+				max-width: 100%;
+				margin: 1.25em auto;
+			}
+			.swal2-popup .swal2-close {
+				position: absolute;
+				top: 0;
+				right: 0;
+				justify-content: center;
+				width: 1.2em;
+				height: 1.2em;
+				padding: 0;
+				transition: color 0.1s ease-out;
+				border: none;
+				border-radius: 0;
+				outline: initial;
+				background: 0 0;
+				color: #ccc;
+				font-family: serif;
+				font-size: 2.5em;
+				line-height: 1.2;
+				cursor: pointer;
+				overflow: hidden;
+			}
+			.swal2-popup .swal2-close:hover {
+				-webkit-transform: none;
+				transform: none;
+				color: #f27474;
+			}
+			.swal2-popup > .swal2-checkbox,
+			.swal2-popup > .swal2-file,
+			.swal2-popup > .swal2-input,
+			.swal2-popup > .swal2-radio,
+			.swal2-popup > .swal2-select,
+			.swal2-popup > .swal2-textarea {
+				display: none;
+			}
+			.swal2-popup .swal2-content {
+				justify-content: center;
+				margin: 0;
+				padding: 0;
+				color: #545454;
+				font-size: 1.125em;
+				font-weight: 300;
+				line-height: normal;
+				z-index: 1;
+				word-wrap: break-word;
+			}
+			.swal2-popup #swal2-content {
+				text-align: center;
+			}
+			.swal2-popup .swal2-checkbox,
+			.swal2-popup .swal2-file,
+			.swal2-popup .swal2-input,
+			.swal2-popup .swal2-radio,
+			.swal2-popup .swal2-select,
+			.swal2-popup .swal2-textarea {
+				margin: 1em auto;
+			}
+			.swal2-popup .swal2-file,
+			.swal2-popup .swal2-input,
+			.swal2-popup .swal2-textarea {
+				width: 100%;
+				transition: border-color 0.3s, box-shadow 0.3s;
+				border: 1px solid #d9d9d9;
+				border-radius: 0.1875em;
+				font-size: 1.125em;
+				box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.06);
+				box-sizing: border-box;
+			}
+			.swal2-popup .swal2-file.swal2-inputerror,
+			.swal2-popup .swal2-input.swal2-inputerror,
+			.swal2-popup .swal2-textarea.swal2-inputerror {
+				border-color: #f27474 !important;
+				box-shadow: 0 0 2px #f27474 !important;
+			}
+			.swal2-popup .swal2-file:focus,
+			.swal2-popup .swal2-input:focus,
+			.swal2-popup .swal2-textarea:focus {
+				border: 1px solid #b4dbed;
+				outline: 0;
+				box-shadow: 0 0 3px #c4e6f5;
+			}
+			.swal2-popup .swal2-file::-webkit-input-placeholder,
+			.swal2-popup .swal2-input::-webkit-input-placeholder,
+			.swal2-popup .swal2-textarea::-webkit-input-placeholder {
+				color: #ccc;
+			}
+			.swal2-popup .swal2-file:-ms-input-placeholder,
+			.swal2-popup .swal2-input:-ms-input-placeholder,
+			.swal2-popup .swal2-textarea:-ms-input-placeholder {
+				color: #ccc;
+			}
+			.swal2-popup .swal2-file::-ms-input-placeholder,
+			.swal2-popup .swal2-input::-ms-input-placeholder,
+			.swal2-popup .swal2-textarea::-ms-input-placeholder {
+				color: #ccc;
+			}
+			.swal2-popup .swal2-file::placeholder,
+			.swal2-popup .swal2-input::placeholder,
+			.swal2-popup .swal2-textarea::placeholder {
+				color: #ccc;
+			}
+			.swal2-popup .swal2-range input {
+				width: 80%;
+			}
+			.swal2-popup .swal2-range output {
+				width: 20%;
+				font-weight: 600;
+				text-align: center;
+			}
+			.swal2-popup .swal2-range input,
+			.swal2-popup .swal2-range output {
+				height: 2.625em;
+				margin: 1em auto;
+				padding: 0;
+				font-size: 1.125em;
+				line-height: 2.625em;
+			}
+			.swal2-popup .swal2-input {
+				height: 2.625em;
+				padding: 0 0.75em;
+			}
+			.swal2-popup .swal2-input[type='number'] {
+				max-width: 10em;
+			}
+			.swal2-popup .swal2-file {
+				font-size: 1.125em;
+			}
+			.swal2-popup .swal2-textarea {
+				height: 6.75em;
+				padding: 0.75em;
+			}
+			.swal2-popup .swal2-select {
+				min-width: 50%;
+				max-width: 100%;
+				padding: 0.375em 0.625em;
+				color: #545454;
+				font-size: 1.125em;
+			}
+			.swal2-popup .swal2-checkbox,
+			.swal2-popup .swal2-radio {
+				align-items: center;
+				justify-content: center;
+			}
+			.swal2-popup .swal2-checkbox label,
+			.swal2-popup .swal2-radio label {
+				margin: 0 0.6em;
+				font-size: 1.125em;
+			}
+			.swal2-popup .swal2-checkbox input,
+			.swal2-popup .swal2-radio input {
+				margin: 0 0.4em;
+			}
+			.swal2-popup .swal2-validation-message {
+				display: none;
+				align-items: center;
+				justify-content: center;
+				padding: 0.625em;
+				background: #f0f0f0;
+				color: #666;
+				font-size: 1em;
+				font-weight: 300;
+				overflow: hidden;
+			}
+			.swal2-popup .swal2-validation-message::before {
+				display: inline-block;
+				width: 1.5em;
+				min-width: 1.5em;
+				height: 1.5em;
+				margin: 0 0.625em;
+				border-radius: 50%;
+				background-color: #f27474;
+				color: #fff;
+				font-weight: 600;
+				line-height: 1.5em;
+				text-align: center;
+				content: '!';
+				zoom: normal;
+			}
+			@supports (-ms-accelerator: true) {
+				.swal2-range input {
+					width: 100% !important;
+				}
+				.swal2-range output {
+					display: none;
+				}
+			}
+			@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+				.swal2-range input {
+					width: 100% !important;
+				}
+				.swal2-range output {
+					display: none;
+				}
+			}
+			@-moz-document url-prefix() {
+				.swal2-close:focus {
+					outline: 2px solid rgba(50, 100, 150, 0.4);
+				}
+			}
+			.swal2-icon {
+				position: relative;
+				justify-content: center;
+				width: 5em;
+				height: 5em;
+				margin: 1.25em auto 1.875em;
+				border: 0.25em solid transparent;
+				border-radius: 50%;
+				line-height: 5em;
+				cursor: default;
+				box-sizing: content-box;
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+				zoom: normal;
+			}
+			.swal2-icon-text {
+				font-size: 3.75em;
+			}
+			.swal2-icon.swal2-error {
+				border-color: #f27474;
+			}
+			.swal2-icon.swal2-error .swal2-x-mark {
+				position: relative;
+				flex-grow: 1;
+			}
+			.swal2-icon.swal2-error [class^='swal2-x-mark-line'] {
+				display: block;
+				position: absolute;
+				top: 2.3125em;
+				width: 2.9375em;
+				height: 0.3125em;
+				border-radius: 0.125em;
+				background-color: #f27474;
+			}
+			.swal2-icon.swal2-error [class^='swal2-x-mark-line'][class$='left'] {
+				left: 1.0625em;
+				-webkit-transform: rotate(45deg);
+				transform: rotate(45deg);
+			}
+			.swal2-icon.swal2-error [class^='swal2-x-mark-line'][class$='right'] {
+				right: 1em;
+				-webkit-transform: rotate(-45deg);
+				transform: rotate(-45deg);
+			}
+			.swal2-icon.swal2-warning {
+				border-color: #facea8;
+				color: #f8bb86;
+			}
+			.swal2-icon.swal2-info {
+				border-color: #9de0f6;
+				color: #3fc3ee;
+			}
+			.swal2-icon.swal2-question {
+				border-color: #c9dae1;
+				color: #87adbd;
+			}
+			.swal2-icon.swal2-success {
+				border-color: #a5dc86;
+			}
+			.swal2-icon.swal2-success [class^='swal2-success-circular-line'] {
+				position: absolute;
+				width: 3.75em;
+				height: 7.5em;
+				-webkit-transform: rotate(45deg);
+				transform: rotate(45deg);
+				border-radius: 50%;
+			}
+			.swal2-icon.swal2-success
+				[class^='swal2-success-circular-line'][class$='left'] {
+				top: -0.4375em;
+				left: -2.0635em;
+				-webkit-transform: rotate(-45deg);
+				transform: rotate(-45deg);
+				-webkit-transform-origin: 3.75em 3.75em;
+				transform-origin: 3.75em 3.75em;
+				border-radius: 7.5em 0 0 7.5em;
+			}
+			.swal2-icon.swal2-success
+				[class^='swal2-success-circular-line'][class$='right'] {
+				top: -0.6875em;
+				left: 1.875em;
+				-webkit-transform: rotate(-45deg);
+				transform: rotate(-45deg);
+				-webkit-transform-origin: 0 3.75em;
+				transform-origin: 0 3.75em;
+				border-radius: 0 7.5em 7.5em 0;
+			}
+			.swal2-icon.swal2-success .swal2-success-ring {
+				position: absolute;
+				top: -0.25em;
+				left: -0.25em;
+				width: 100%;
+				height: 100%;
+				border: 0.25em solid rgba(165, 220, 134, 0.3);
+				border-radius: 50%;
+				z-index: 2;
+				box-sizing: content-box;
+			}
+			.swal2-icon.swal2-success .swal2-success-fix {
+				position: absolute;
+				top: 0.5em;
+				left: 1.625em;
+				width: 0.4375em;
+				height: 5.625em;
+				-webkit-transform: rotate(-45deg);
+				transform: rotate(-45deg);
+				z-index: 1;
+			}
+			.swal2-icon.swal2-success [class^='swal2-success-line'] {
+				display: block;
+				position: absolute;
+				height: 0.3125em;
+				border-radius: 0.125em;
+				background-color: #a5dc86;
+				z-index: 2;
+			}
+			.swal2-icon.swal2-success [class^='swal2-success-line'][class$='tip'] {
+				top: 2.875em;
+				left: 0.875em;
+				width: 1.5625em;
+				-webkit-transform: rotate(45deg);
+				transform: rotate(45deg);
+			}
+			.swal2-icon.swal2-success [class^='swal2-success-line'][class$='long'] {
+				top: 2.375em;
+				right: 0.5em;
+				width: 2.9375em;
+				-webkit-transform: rotate(-45deg);
+				transform: rotate(-45deg);
+			}
+			.swal2-progresssteps {
+				align-items: center;
+				margin: 0 0 1.25em;
+				padding: 0;
+				font-weight: 600;
+			}
+			.swal2-progresssteps li {
+				display: inline-block;
+				position: relative;
+			}
+			.swal2-progresssteps .swal2-progresscircle {
+				width: 2em;
+				height: 2em;
+				border-radius: 2em;
+				background: #3085d6;
+				color: #fff;
+				line-height: 2em;
+				text-align: center;
+				z-index: 20;
+			}
+			.swal2-progresssteps .swal2-progresscircle:first-child {
+				margin-left: 0;
+			}
+			.swal2-progresssteps .swal2-progresscircle:last-child {
+				margin-right: 0;
+			}
+			.swal2-progresssteps .swal2-progresscircle.swal2-activeprogressstep {
+				background: #3085d6;
+			}
+			.swal2-progresssteps
+				.swal2-progresscircle.swal2-activeprogressstep
+				~ .swal2-progresscircle {
+				background: #add8e6;
+			}
+			.swal2-progresssteps
+				.swal2-progresscircle.swal2-activeprogressstep
+				~ .swal2-progressline {
+				background: #add8e6;
+			}
+			.swal2-progresssteps .swal2-progressline {
+				width: 2.5em;
+				height: 0.4em;
+				margin: 0 -1px;
+				background: #3085d6;
+				z-index: 10;
+			}
+			[class^='swal2'] {
+				-webkit-tap-highlight-color: transparent;
+			}
+			.swal2-show {
+				-webkit-animation: swal2-show 0.3s;
+				animation: swal2-show 0.3s;
+			}
+			.swal2-show.swal2-noanimation {
+				-webkit-animation: none;
+				animation: none;
+			}
+			.swal2-hide {
+				-webkit-animation: swal2-hide 0.15s forwards;
+				animation: swal2-hide 0.15s forwards;
+			}
+			.swal2-hide.swal2-noanimation {
+				-webkit-animation: none;
+				animation: none;
+			}
+			.swal2-rtl .swal2-close {
+				right: auto;
+				left: 0;
+			}
+			.swal2-animate-success-icon .swal2-success-line-tip {
+				-webkit-animation: swal2-animate-success-line-tip 0.75s;
+				animation: swal2-animate-success-line-tip 0.75s;
+			}
+			.swal2-animate-success-icon .swal2-success-line-long {
+				-webkit-animation: swal2-animate-success-line-long 0.75s;
+				animation: swal2-animate-success-line-long 0.75s;
+			}
+			.swal2-animate-success-icon .swal2-success-circular-line-right {
+				-webkit-animation: swal2-rotate-success-circular-line 4.25s ease-in;
+				animation: swal2-rotate-success-circular-line 4.25s ease-in;
+			}
+			.swal2-animate-error-icon {
+				-webkit-animation: swal2-animate-error-icon 0.5s;
+				animation: swal2-animate-error-icon 0.5s;
+			}
+			.swal2-animate-error-icon .swal2-x-mark {
+				-webkit-animation: swal2-animate-error-x-mark 0.5s;
+				animation: swal2-animate-error-x-mark 0.5s;
+			}
+			@-webkit-keyframes swal2-rotate-loading {
+				0% {
+					-webkit-transform: rotate(0);
+					transform: rotate(0);
+				}
+				100% {
+					-webkit-transform: rotate(360deg);
+					transform: rotate(360deg);
+				}
+			}
+			@keyframes swal2-rotate-loading {
+				0% {
+					-webkit-transform: rotate(0);
+					transform: rotate(0);
+				}
+				100% {
+					-webkit-transform: rotate(360deg);
+					transform: rotate(360deg);
+				}
+			}
+			@media print {
+				body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown) {
+					overflow-y: scroll !important;
+				}
+				body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown)
+					> [aria-hidden='true'] {
+					display: none;
+				}
+				body.swal2-shown:not(.swal2-no-backdrop):not(.swal2-toast-shown)
+					.swal2-container {
+					position: initial !important;
+				}
+			}
+		</style>
+		<style>
+			.ejoy-sub-active {
+				color: #1296ba !important;
+			}
+
+			.ejoy-sub-hovered {
+				color: #1296ba !important;
+			}
+			.ejoy-sub-clzz {
+				cursor: pointer;
+
+				lineheight: 1.2;
+				font-size: 28px;
+				color: #ffcc00;
+				background: rgba(17, 17, 17, 0.7);
+			}
+			.ejoy-sub-clzz:hover {
+				color: #1296ba !important;
+			}
+			.ej-trans-sub {
+				position: absolute;
+				width: 100%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				z-index: 9999999;
+				cursor: move;
+			}
+			.ej-trans-sub > span {
+				color: #3cf9ed;
+				font-size: 18px;
+				text-align: center;
+				padding: 0 16px;
+				line-height: 1.5;
+				background: rgba(32, 26, 25, 0.8);
+				text-shadow: 0px 1px 4px black;
+				padding: 0 8px;
+				line-height: 1.2;
+				font-size: 16px;
+				color: #0cb1c7;
+				background: rgba(67, 65, 65, 0.7);
+			}
+			.ej-full-screen-video {
+				position: absolute;
+				width: 30px;
+				height: 30px;
+				top: 30px;
+				right: 10px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				z-index: 99999999;
+				cursor: pointer;
+			}
+			.ej-main-sub {
+				position: absolute;
+				width: 100%;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				z-index: 99999999;
+				cursor: move;
+				padding: 0 8px;
+			}
+			.ej-main-sub > span {
+				color: white;
+				font-size: 20px;
+				line-height: 1.5;
+				text-align: center;
+				background: rgba(32, 26, 25, 0.8);
+				padding: 2px 8px;
+
+				lineheight: 1.2;
+				font-size: 28px;
+				color: #ffcc00;
+				background: rgba(17, 17, 17, 0.7);
+			}
+
+			.ej-main-sub .ejoy-sub-clzz {
+				background: transparent !important;
+			}
+
+			.tran-subtitle > span {
+				cursor: pointer;
+				padding-left: 10px;
+				top: 2px;
+				position: relative;
+			}
+
+			.tran-subtitle > span > span {
+				position: absolute;
+				top: -170%;
+				background: rgba(0, 0, 0, 0.5);
+				font-size: 13px;
+				line-height: 20px;
+				padding: 2px 8px;
+				color: white;
+				display: none;
+				border-radius: 4px;
+				white-space: nowrap;
+				left: -50%;
+				font-weight: normal;
+			}
+
+			.viewPopupPro {
+				z-index: 2147483647;
+				cursor: auto;
+				position: absolute;
+				z-index: 2147483647;
+				background: #111111;
+				transition: opacity 1s;
+				width: 172px;
+				height: 66px;
+				opacity: 1;
+				border-radius: 6px;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+
+			.titlePopupPro {
+				font-style: normal;
+				font-weight: 400;
+				font-size: 10px;
+				line-height: 12px;
+				color: #e5e5e5;
+				text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+			}
+
+			.viewGoPro {
+				background: #ffcc00;
+				border-radius: 72.6257px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin-top: 8px;
+				padding-left: 10px;
+				cursor: pointer;
+			}
+
+			.viewGoPro svg {
+				pointer-events: none;
+			}
+
+			.textGoPro {
+				font-style: normal;
+				font-weight: 600;
+				font-size: 10px;
+				line-height: 12px;
+				pointer-events: none;
+				text-align: center;
+				color: #ffffff;
+				padding: 4px 14px 4px 4px;
+			}
+
+			.viewPopupPro {
+				top: auto !important;
+				bottom: 15px !important;
+			}
+
+			.view-icon-copy-main-sub:hover > span,
+			.view-icon-edit-sub:hover > span,
+			.view-icon-exit-full-sub:hover > span,
+			.view-icon-full-sub:hover > span,
+			.iconCrownGoPro:hover > span,
+			.view-icon-copy-tran-sub:hover > span {
+				display: block;
+			}
+
+			.iconCrownGoPro {
+				padding-left: 0px !important;
+				padding-right: 8px !important;
+			}
+			.iconCrownGoPro svg {
+				width: 17px;
+				height: 17px;
+			}
+			.view-icon-full-sub,
+			.view-icon-exit-full-sub {
+				display: flex;
+			}
+
+			.view-icon-full-sub > svg,
+			.view-icon-exit-full-sub > svg {
+				pointer-events: none;
+			}
+
+			.tran-subtitle > span > svg {
+				width: 16px;
+				height: 16px;
+				pointer-events: none;
+				display: inline-flex !important;
+				vertical-align: baseline !important;
+			}
+
+			.view-icon-copy-main-sub > svg {
+				pointer-events: none;
+				color: #ffcc00;
+			}
+
+			.iconCrownGoPro {
+				padding-left: 0 !important;
+				padding-right: 8px !important;
+			}
+			.view-icon-copy-tran-sub > svg {
+				pointer-events: none;
+				color: #0cb1c7;
+			}
+		</style>
+	</head>
+	<body data-new-gr-c-s-check-loaded="14.1112.0" data-gr-ext-installed="">
+		<!--Preloader area start here-->
+		<div class="loader_first" style="display: none">
+			<div class="circular-spinner"></div>
+		</div>
+		<!--Preloader area End here-->
+
+		<div class="gafi_body">
+			<div class="gamfi_header_v2">
+				<!--Header Start-->
+				<header
+					id="gamfi-header"
+					class="gamfi-header-section transparent-header"
+				>
+					<div class="menu-area menu-sticky sticky">
+						<div class="container">
+							<div
+								class="heaader-inner-area d-flex justify-content-between align-items-center"
+							>
+								<div
+									class="gamfi-logo-area d-flex justify-content-between align-items-center"
+								>
+									<div class="logo">
+										<a href="index.html"
+											><img src="assets/images/logo.png" alt="logo"
+										/></a>
+									</div>
+									<div class="header-menu">
+										<ul class="nav-menu">
+											<li>
+												<a href="index.html">Home</a>
+												<ul class="sub-menu">
+													<li><a href="index.html">Home 1</a></li>
+													<li><a href="index2.html">Home 2</a></li>
+													<li><a href="index3.html">Home 3</a></li>
+													<li><a href="index4.html">Home 4</a></li>
+												</ul>
+											</li>
+											<li>
+												<a href="project.html">Projects</a>
+												<ul class="sub-menu">
+													<li>
+														<a href="project-clasic.html">Projects Clasic 1</a>
+													</li>
+													<li>
+														<a href="project-clasic-2.html"
+															>Projects Clasic 2</a
+														>
+													</li>
+													<li><a href="project.html">Projects List</a></li>
+													<li><a href="explore.html">Projects Grid</a></li>
+													<li><a href="calendar.html">Project Calendar</a></li>
+													<li>
+														<a href="project-details.html">Project Details 1</a>
+													</li>
+													<li>
+														<a href="project_details2.html"
+															>Project Details 2</a
+														>
+													</li>
+												</ul>
+											</li>
+											<li>
+												<a href="staking.html">Staking</a>
+												<ul class="sub-menu">
+													<li><a href="staking.html">Staking 1</a></li>
+													<li><a href="staking-2.html">Staking 2</a></li>
+													<li><a href="staking-3.html">Staking 3</a></li>
+													<li><a href="staking-4.html">Staking 4</a></li>
+													<li><a href="staking-5-lp.html">Staking 5 LP</a></li>
+												</ul>
+											</li>
+											<li class="mega_menu_hov">
+												<a href="#">Pages +</a>
+												<!-- Mega Menu Start -->
+												<div class="gamfi_mega_menu_sect">
+													<div class="gamfi_mega_menu">
+														<div class="container">
+															<div class="mega_menu_content">
+																<div class="mega_menu_left_sect">
+																	<div class="mega_menu_left_bg_sect">
+																		<div class="mega_menu_left_bg">
+																			<div
+																				class="mega_menu_left_bg_color"
+																			></div>
+																		</div>
+																	</div>
+																	<div class="home_menu_list">
+																		<div class="home_menu_list_headings">
+																			<h2>Home Pages</h2>
+																			<span
+																				><img
+																					src="assets/images/megaMenu/border-buttomShape.png"
+																					alt=""
+																					class="img-fluid"
+																			/></span>
+																		</div>
+																		<ul>
+																			<li>
+																				<a href="index.html"
+																					>01
+																					<span
+																						><img
+																							src="assets/images/megaMenu/index-V1.png"
+																							alt="Index V1"
+																							class="img-fluid" /></span
+																				></a>
+																			</li>
+																			<li>
+																				<a href="index2.html"
+																					>02
+																					<span
+																						><img
+																							src="assets/images/megaMenu/index-V2.png"
+																							alt="Index V2"
+																							class="img-fluid" /></span
+																				></a>
+																			</li>
+																			<li>
+																				<a href="index3.html"
+																					>03
+																					<span
+																						><img
+																							src="assets/images/megaMenu/index-V3.png"
+																							alt="Index V3"
+																							class="img-fluid" /></span
+																				></a>
+																			</li>
+																			<li>
+																				<a href="index4.html"
+																					>04
+																					<span
+																						><img
+																							src="assets/images/megaMenu/index-V4.png"
+																							alt="Index V3"
+																							class="img-fluid" /></span
+																				></a>
+																			</li>
+																		</ul>
+																	</div>
+																</div>
+
+																<div class="home_menu_right_sect">
+																	<div class=""></div>
+																	<div class="menu_column project_column">
+																		<div class="menu_headings">
+																			<h2>PROJECT PAGES</h2>
+																			<span
+																				><img
+																					src="assets/images/megaMenu/border-buttomShape.png"
+																					alt=""
+																					class="img-fluid"
+																			/></span>
+																		</div>
+																		<ul>
+																			<li>
+																				<a href="project-clasic.html"
+																					>Projects Clasic 1</a
+																				>
+																				<span class="hot">HOT</span>
+																			</li>
+																			<li>
+																				<a href="project-clasic-2.html"
+																					>Projects Clasic 2</a
+																				>
+																				<span class="new">NEW</span>
+																			</li>
+																			<li>
+																				<a href="project.html">Projects List</a>
+																			</li>
+																			<li>
+																				<a href="explore.html">Project Grid</a>
+																			</li>
+																			<li>
+																				<a href="calendar.html"
+																					>Project Calendar</a
+																				>
+																			</li>
+																			<li>
+																				<a href="project-details.html"
+																					>Project Details 1</a
+																				>
+																			</li>
+																			<li>
+																				<a href="project_details2.html"
+																					>Project Details 2</a
+																				>
+																				<span class="hot">HOT</span>
+																			</li>
+																			<li>
+																				<a href="igo-ranking.html"
+																					>Project Ranking</a
+																				>
+																			</li>
+																		</ul>
+																	</div>
+
+																	<div class="two_menu_column">
+																		<div class="menu_column project_column">
+																			<div class="menu_headings">
+																				<h2>STAKE &amp; Farm</h2>
+																				<span
+																					><img
+																						src="assets/images/megaMenu/border-buttomShape.png"
+																						alt=""
+																						class="img-fluid"
+																				/></span>
+																			</div>
+																			<ul>
+																				<li>
+																					<a href="staking.html">Staking One</a>
+																				</li>
+																				<li>
+																					<a href="staking-2.html"
+																						>Staking Two</a
+																					>
+																				</li>
+																				<li>
+																					<a href="staking-3.html"
+																						>Staking Three</a
+																					>
+																					<span class="new">NEW</span>
+																				</li>
+																				<li>
+																					<a href="staking-4.html"
+																						>Staking Four</a
+																					>
+																					<span class="new">NEW</span>
+																					<span class="hot">HOT</span>
+																				</li>
+																				<li>
+																					<a href="staking-5-lp.html"
+																						>Staking Five LP</a
+																					>
+																					<span class="new">NEW</span>
+																				</li>
+																				<li><a href="farm.html">Farming</a></li>
+																				<li>
+																					<a href="leaderboard.html"
+																						>Leaderboard</a
+																					>
+																				</li>
+																			</ul>
+																		</div>
+
+																		<div class="menu_column project_column">
+																			<div class="menu_headings">
+																				<h2>BLOG PAGES</h2>
+																				<span
+																					><img
+																						src="assets/images/megaMenu/border-buttomShape.png"
+																						alt=""
+																						class="img-fluid"
+																				/></span>
+																			</div>
+																			<ul>
+																				<li>
+																					<a href="blog-grid.html">Blog Grid</a>
+																				</li>
+																				<li>
+																					<a href="blog-clasic.html"
+																						>Blog Classic</a
+																					>
+																				</li>
+																				<li>
+																					<a href="blog-details.html"
+																						>Artcles Details</a
+																					>
+																				</li>
+																			</ul>
+																		</div>
+																	</div>
+
+																	<div class="two_menu_column">
+																		<div class="menu_column project_column">
+																			<div class="menu_headings">
+																				<h2>TOKENOMIC &amp; TIER</h2>
+																				<span
+																					><img
+																						src="assets/images/megaMenu/border-buttomShape.png"
+																						alt=""
+																						class="img-fluid"
+																				/></span>
+																			</div>
+																			<ul>
+																				<li>
+																					<a href="tier.html">Tier System 1</a>
+																				</li>
+																				<li>
+																					<a href="tier-2.html">Tier System 2</a
+																					><span class="hot">HOT</span>
+																				</li>
+																				<li>
+																					<a href="tier-3.html"
+																						>Tier System 3</a
+																					>
+																				</li>
+																				<li>
+																					<a href="tokenomics.html"
+																						>Tokenomics</a
+																					>
+																				</li>
+																			</ul>
+																		</div>
+
+																		<div class="menu_column project_column">
+																			<div class="menu_headings">
+																				<h2>other Pages</h2>
+																				<span
+																					><img
+																						src="assets/images/megaMenu/border-buttomShape.png"
+																						alt=""
+																						class="img-fluid"
+																				/></span>
+																			</div>
+																			<ul>
+																				<li>
+																					<a href="governance.html"
+																						>Governance</a
+																					>
+																					<span class="new">NEW</span>
+																					<span class="hot">HOT</span>
+																				</li>
+																				<li>
+																					<a href="governance-details.html"
+																						>Voting Details</a
+																					>
+																					<span class="new">NEW</span>
+																				</li>
+																				<li>
+																					<a href="get-in-touch.html"
+																						>Contact Us</a
+																					>
+																				</li>
+																				<li>
+																					<a href="roadmap.html">Roadmap</a>
+																				</li>
+																				<li><a href="faq.html">FAQs</a></li>
+																				<li>
+																					<a href="igo-apply.html"
+																						>Apply For Project</a
+																					>
+																				</li>
+																				<li>
+																					<a href="teamdetails.html"
+																						>Team Details</a
+																					>
+																				</li>
+																			</ul>
+																		</div>
+																	</div>
+
+																	<div class="menu_column project_column">
+																		<div class="menu_headings">
+																			<h2>AUth Pages</h2>
+																			<span
+																				><img
+																					src="assets/images/megaMenu/border-buttomShape.png"
+																					alt=""
+																					class="img-fluid"
+																			/></span>
+																		</div>
+																		<ul>
+																			<li>
+																				<a href="kyc-process.html"
+																					>KYC Step 01</a
+																				>
+																				<span class="hot">HOT</span>
+																			</li>
+																			<li>
+																				<a href="kyc-process-step2.html"
+																					>KYC Step 02</a
+																				>
+																			</li>
+																			<li>
+																				<a href="kyc-process-step3.html"
+																					>KYC Step 03</a
+																				>
+																			</li>
+																			<li>
+																				<a href="connect-wallet.html"
+																					>Connect Wallet</a
+																				>
+																			</li>
+																			<li>
+																				<a
+																					href="#"
+																					data-bs-toggle="modal"
+																					data-bs-target="#exampleModal"
+																					>Wallet Module</a
+																				>
+																			</li>
+																			<li>
+																				<a href="signup.html">Register</a>
+																			</li>
+																			<li><a href="signin.html">Login</a></li>
+																			<li>
+																				<a href="forget-password.html"
+																					>Forget Password</a
+																				>
+																			</li>
+																		</ul>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<!-- Mega Menu End -->
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="gamfi-btn-area">
+									<ul>
+										<li>
+											<a id="nav-expander" class="nav-expander bar" href="#">
+												<div class="bar">
+													<span class="dot1"></span>
+													<span class="dot2"></span>
+													<span class="dot3"></span>
+												</div>
+											</a>
+										</li>
+										<li class="buy-token">
+											<a class="readon black-shape" href="#">
+												<span class="btn-text">Buy Token </span>
+												<i class="icon-arrow_down"></i>
+												<span class="hover-shape1"></span>
+												<span class="hover-shape2"></span>
+												<span class="hover-shape3"></span>
+											</a>
+											<ul>
+												<li>
+													<a href="#"
+														><img
+															src="assets/images/icons/pancake.png"
+															alt="pancake"
+														/>
+														PancakeSwap</a
+													>
+												</li>
+												<li>
+													<a href="#"
+														><img
+															src="assets/images/icons/uniswap.png"
+															alt="uniswap"
+														/>
+														UniSwap</a
+													>
+												</li>
+												<li>
+													<a href="#"
+														><img
+															src="assets/images/icons/market.png"
+															alt="market"
+														/>
+														CoinMarketCap</a
+													>
+												</li>
+												<li>
+													<a href="#"
+														><img
+															src="assets/images/icons/gate.png"
+															alt="gate"
+														/>
+														Gate.io</a
+													>
+												</li>
+											</ul>
+										</li>
+										<li class="connect-btn-wrapper">
+											<button
+												type="button"
+												class="connect-btn readon white-btn hover-shape"
+												data-bs-toggle="modal"
+												data-bs-target="#exampleModal"
+											>
+												<img src="assets/images/icons/connect.png" alt="Icon" />
+												<span class="btn-text">Connect </span>
+												<span class="hover-shape1"></span>
+												<span class="hover-shape2"></span>
+												<span class="hover-shape3"></span>
+											</button>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Canvas Mobile Menu start -->
+					<nav
+						class="right_menu_togle mobile-navbar-menu"
+						id="mobile-navbar-menu"
+					>
+						<div class="close-btn hash-has-sub">
+							<a id="nav-close2" class="nav-close hash">
+								<div class="line">
+									<span class="line1"></span>
+									<span class="line2"></span>
+								</div>
+							</a>
+						</div>
+						<div class="sidebar-logo mb-30 hash-has-sub">
+							<a href="index.html" class="hash"
+								><img src="assets/images/logo-dark.png" alt=""
+							/></a>
+						</div>
+						<ul class="nav-menu">
+							<li class="current-menu-item has-sub hash-has-sub">
+								<span class="submenu-button"><em></em></span
+								><a href="index.html" class="hash">Home</a>
+								<ul class="sub-menu" style="display: none">
+									<li class="hash-has-sub">
+										<a href="index.html" class="hash">Home 1</a>
+									</li>
+									<li class="hash-has-sub">
+										<a href="index2.html" class="hash">Home 2</a>
+									</li>
+									<li class="hash-has-sub">
+										<a href="index3.html" class="hash">Home 3</a>
+									</li>
+									<li class="hash-has-sub">
+										<a href="index4.html" class="hash">Home 4</a>
+									</li>
+								</ul>
+							</li>
+							<li class="has-sub hash-has-sub">
+								<span class="submenu-button"><em></em></span
+								><a href="project.html" class="hash">Projects</a>
+								<ul class="sub-menu" style="display: none">
+									<li class="hash-has-sub">
+										<a href="project-clasic.html" class="hash"
+											>Projects Clasic 1</a
+										>
+									</li>
+									<li class="hash-has-sub">
+										<a href="project-clasic-2.html" class="hash"
+											>Projects Clasic 2</a
+										>
+									</li>
+									<li class="hash-has-sub">
+										<a href="project.html" class="hash">Projects List</a>
+									</li>
+									<li class="hash-has-sub">
+										<a href="explore.html" class="hash">Project Grid</a>
+									</li>
+									<li class="hash-has-sub">
+										<a href="calendar.html" class="hash">Project Calendar</a>
+									</li>
+									<li class="hash-has-sub">
+										<a href="project-details.html" class="hash"
+											>Project Details 1</a
+										>
+									</li>
+									<li class="hash-has-sub">
+										<a href="project_details2.html" class="hash"
+											>Project Details 2</a
+										>
+									</li>
+									<li class="hash-has-sub">
+										<a href="igo-ranking.html" class="hash">Project Ranking</a>
+									</li>
+								</ul>
+							</li>
+							<li class="has-sub hash-has-sub">
+								<span class="submenu-button"><em></em></span
+								><a href="staking.html" class="hash">Staking</a>
+								<ul class="sub-menu" style="display: none">
+									<li class="hash-has-sub">
+										<a href="staking.html" class="hash">Staking 1</a>
+									</li>
+									<li class="hash-has-sub">
+										<a href="staking-2.html" class="hash">Staking 2</a>
+									</li>
+									<li class="hash-has-sub">
+										<a href="staking-3.html" class="hash">Staking 3</a>
+									</li>
+									<li class="hash-has-sub">
+										<a href="staking-4.html" class="hash">Staking 4</a>
+									</li>
+									<li class="hash-has-sub">
+										<a href="staking-5-lp.html" class="hash">Staking 5 LP</a>
+									</li>
+								</ul>
+							</li>
+							<li class="menu-item-has-children has-sub hash-has-sub">
+								<span class="submenu-button"><em></em></span>
+								<a href="#" class="hash">Pages</a>
+								<ul class="sub-menu" style="display: none">
+									<li class="menu-item-has-children has-sub hash-has-sub">
+										<span class="submenu-button"><em></em></span
+										><a href="project.html" class="hash">Projects Pages</a>
+										<ul class="sub-menu" style="display: none">
+											<li class="hash-has-sub">
+												<a href="project-clasic.html" class="hash"
+													>Projects Clasic 1</a
+												>
+											</li>
+											<li class="hash-has-sub">
+												<a href="project-clasic-2.html" class="hash"
+													>Projects Clasic 2</a
+												>
+											</li>
+											<li class="hash-has-sub">
+												<a href="project.html" class="hash">Projects List</a>
+											</li>
+											<li class="hash-has-sub">
+												<a href="explore.html" class="hash">Project Grid</a>
+											</li>
+											<li class="hash-has-sub">
+												<a href="calendar.html" class="hash"
+													>Project Calendar</a
+												>
+											</li>
+											<li class="hash-has-sub">
+												<a href="project-details.html" class="hash"
+													>Project Details 1</a
+												>
+											</li>
+											<li class="hash-has-sub">
+												<a href="project_details2.html" class="hash"
+													>Project Details 2</a
+												>
+											</li>
+											<li class="hash-has-sub">
+												<a href="igo-ranking.html" class="hash"
+													>Project Ranking</a
+												>
+											</li>
+										</ul>
+									</li>
+									<li class="menu-item-has-children has-sub hash-has-sub">
+										<span class="submenu-button"><em></em></span
+										><a href="#" class="hash">Stake &amp; Farm</a>
+										<ul class="sub-menu" style="display: none">
+											<li class="hash-has-sub">
+												<a href="staking.html" class="hash">Staking 1</a>
+											</li>
+											<li class="hash-has-sub">
+												<a href="staking-2.html" class="hash">Staking 2</a>
+											</li>
+											<li class="hash-has-sub">
+												<a href="staking-3.html" class="hash">Staking 3</a>
+											</li>
+											<li class="hash-has-sub">
+												<a href="staking-4.html" class="hash">Staking 4</a>
+											</li>
+											<li class="hash-has-sub">
+												<a href="staking-5-lp.html" class="hash"
+													>Staking 5 LP</a
+												>
+											</li>
+											<li class="hash-has-sub">
+												<a href="farm.html" class="hash">Farming</a>
+											</li>
+											<li class="hash-has-sub">
+												<a href="leaderboard.html" class="hash">Leaderboard</a>
+											</li>
+										</ul>
+									</li>
+									<li class="menu-item-has-children has-sub hash-has-sub">
+										<span class="submenu-button"><em></em></span
+										><a href="#" class="hash">Other Pages</a>
+										<ul class="sub-menu" style="display: none">
+											<li class="hash-has-sub">
+												<a href="get-in-touch.html" class="hash">Contact Us</a>
+											</li>
+											<li class="hash-has-sub">
+												<a href="roadmap.html" class="hash">Roadmap</a>
+											</li>
+											<li class="hash-has-sub">
+												<a href="faq.html" class="hash">FAQs</a>
+											</li>
+											<li class="hash-has-sub">
+												<a href="igo-apply.html" class="hash"
+													>Apply For Project</a
+												>
+											</li>
+											<li class="hash-has-sub">
+												<a href="teamdetails.html" class="hash">Team Details</a>
+											</li>
+										</ul>
+									</li>
+									<li class="menu-item-has-children has-sub hash-has-sub">
+										<span class="submenu-button"><em></em></span
+										><a href="#" class="hash">Tokenomics &amp; Tier</a>
+										<ul class="sub-menu" style="display: none">
+											<li class="hash-has-sub">
+												<a href="tier.html" class="hash">Tier System 1</a>
+											</li>
+											<li class="hash-has-sub">
+												<a href="tier-2.html" class="hash">Tier System 2</a>
+											</li>
+											<li class="hash-has-sub">
+												<a href="tier-3.html" class="hash">Tier System 3</a>
+											</li>
+											<li class="hash-has-sub">
+												<a href="tokenomics.html" class="hash">Tokenomics</a>
+											</li>
+										</ul>
+									</li>
+									<li class="menu-item-has-children has-sub hash-has-sub">
+										<span class="submenu-button"><em></em></span
+										><a href="#" class="hash">Blog &amp; Pages</a>
+										<ul class="sub-menu" style="display: none">
+											<li class="hash-has-sub">
+												<a href="blog-grid.html" class="hash">Blog Grid</a>
+											</li>
+											<li class="hash-has-sub">
+												<a href="blog-clasic.html" class="hash">Blog Classic</a>
+											</li>
+											<li class="hash-has-sub">
+												<a href="blog-details.html" class="hash"
+													>Artcles Details</a
+												>
+											</li>
+										</ul>
+									</li>
+									<li class="menu-item-has-children has-sub hash-has-sub">
+										<span class="submenu-button"><em></em></span
+										><a href="signin.html" class="hash">Auth Pages</a>
+										<ul class="sub-menu" style="display: none">
+											<li class="hash-has-sub">
+												<a href="kyc-process.html" class="hash">KYC Step 01</a>
+											</li>
+											<li class="hash-has-sub">
+												<a href="kyc-process-step2.html" class="hash"
+													>KYC Step 02</a
+												>
+											</li>
+											<li class="hash-has-sub">
+												<a href="kyc-process-step3.html" class="hash"
+													>KYC Step 03</a
+												>
+											</li>
+											<li class="hash-has-sub">
+												<a href="connect-wallet.html" class="hash"
+													>Connect Wallet</a
+												>
+											</li>
+											<li class="hash-has-sub">
+												<a
+													href="#"
+													data-bs-toggle="modal"
+													data-bs-target="#exampleModal"
+													class="hash"
+													>Wallet Module</a
+												>
+											</li>
+											<li class="hash-has-sub">
+												<a href="signup.html" class="hash">Register</a>
+											</li>
+											<li class="hash-has-sub">
+												<a href="signin.html" class="hash">Login</a>
+											</li>
+											<li class="hash-has-sub">
+												<a href="forget-password.html" class="hash"
+													>Forgot Password</a
+												>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+							<li class="menu-item-has-children has-sub hash-has-sub">
+								<span class="submenu-button"><em></em></span>
+								<a href="#" class="hash">Buy Token</a>
+								<ul class="sub-menu" style="display: none">
+									<li class="hash-has-sub">
+										<a href="#" class="hash">PancakeSwap</a>
+									</li>
+									<li class="hash-has-sub">
+										<a href="#" class="hash">UniSwap</a>
+									</li>
+									<li class="hash-has-sub">
+										<a href="#" class="hash">CoinMarketCap</a>
+									</li>
+									<li class="hash-has-sub">
+										<a href="#" class="hash">Gate.io</a>
+									</li>
+								</ul>
+							</li>
+							<li class="connect-btn-wrapper">
+								<button
+									type="button"
+									class="readon black-shape-big connect-wallet-btn-for-mobile"
+									data-bs-toggle="modal"
+									data-bs-target="#exampleModal"
+								>
+									<img src="assets/images/icons/connect_white.png" alt="Icon" />
+									<span class="btn-text">Connect </span>
+									<span class="hover-shape1"></span>
+									<span class="hover-shape2"></span>
+									<span class="hover-shape3"></span>
+								</button>
+							</li>
+						</ul>
+					</nav>
+					<!-- Canvas Menu end -->
+				</header>
+				<!--Header End-->
+
+				<div class="gamfi_v2_hero_sect">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="gamfi_v2_hero_left">
+									<h2
+										class="wow fadeInUp"
+										data-wow-delay="0.4s"
+										data-wow-duration="0.7s"
+										style="
+											visibility: visible;
+											animation-duration: 0.7s;
+											animation-delay: 0.4s;
+											animation-name: fadeInUp;
+										"
+									>
+										Multichain DeFi Web <span>3.0</span> Ecosystem
+									</h2>
+									<p
+										class="wow fadeInUp"
+										data-wow-delay="0.5s"
+										data-wow-duration="0.8s"
+										style="
+											visibility: visible;
+											animation-duration: 0.8s;
+											animation-delay: 0.5s;
+											animation-name: fadeInUp;
+										"
+									>
+										The next generation gaming ecosystem for IGOs and NFT market
+									</p>
+									<div
+										class="gamfi_v2_hero_btns wow fadeInUp"
+										data-wow-delay="0.6s"
+										data-wow-duration="0.9s"
+										style="
+											visibility: visible;
+											animation-duration: 0.9s;
+											animation-delay: 0.6s;
+											animation-name: fadeInUp;
+										"
+									>
+										<a
+											href="project.html"
+											class="readon white-btn hover-shape view-project-btn"
+										>
+											<span class="btn-text">VIEW Projects</span>
+											<span class="hover-shape1"></span>
+											<span class="hover-shape2"></span>
+											<span class="hover-shape3"></span>
+										</a>
+										<a
+											class="readon black-shape apply-project-btn"
+											href="igo-apply.html"
+										>
+											<span class="btn-text">Apply Project</span>
+											<span class="hover-shape1"></span>
+											<span class="hover-shape2"></span>
+											<span class="hover-shape3"></span>
+										</a>
+									</div>
+									<!-- <div class="buy-token-logos">
+										<h6>BUY TOKEN ON</h6>
+										<ul>
+											<li>
+												<a href="#"
+													><img
+														src="assets/images/homeV2/buyTokenlogo1.png"
+														alt="logo"
+														class="img-fluid"
+												/></a>
+											</li>
+											<li>
+												<a href="#"
+													><img
+														src="assets/images/homeV2/buyTokenlogo2.png"
+														alt="logo"
+														class="img-fluid"
+												/></a>
+											</li>
+											<li>
+												<a href="#"
+													><img
+														src="assets/images/homeV2/buyTokenlogo3.png"
+														alt="logo"
+														class="img-fluid"
+												/></a>
+											</li>
+											<li class="m-0">
+												<a href="#"
+													><img
+														src="assets/images/homeV2/buyTokenlogo4.png"
+														alt="logo"
+														class="img-fluid"
+												/></a>
+											</li>
+										</ul>
+									</div> -->
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="gamfi_v2_hero_right">
+									<div class="gamfi_v2_hero_rocket">
+										<img
+											src="assets/images/homeV2/rocket-front-color.png"
+											alt="Rocket Img"
+											class="Img-fluid RedRocketImg wow fadeInUp animated"
+											style="visibility: visible; animation-name: RocketLaunch"
+										/>
+										<span class="rocketshadow1"
+											><img
+												src="assets/images/homeV2/rocketStar.svg"
+												alt=""
+												class="img-fluid"
+										/></span>
+										<span class="rocketshadow2"
+											><img
+												src="assets/images/homeV2/rocketStar.svg"
+												alt=""
+												class="img-fluid"
+										/></span>
+										<span class="rocketshadow3"
+											><img
+												src="assets/images/homeV2/rocketStar.svg"
+												alt=""
+												class="img-fluid"
+										/></span>
+										<span class="rocketshadow4"
+											><img
+												src="assets/images/homeV2/rocketStar.svg"
+												alt=""
+												class="img-fluid"
+										/></span>
+										<span class="rocketshadow5"
+											><img
+												src="assets/images/homeV2/rocketStar.svg"
+												alt=""
+												class="img-fluid"
+										/></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="market_cap_sect">
+				<div class="container">
+					<div class="market_cap_all_content">
+						<div class="market_cap_content">
+							<h2>Market Cap</h2>
+							<h3 class="counter-number">
+								$<span class="counter">490.88</span>M
+							</h3>
+						</div>
+						<div class="market_cap_content">
+							<h2>TVL</h2>
+							<h3 class="counter-number">
+								$<span class="counter">38.60</span>M
+							</h3>
+						</div>
+						<div class="market_cap_content">
+							<h2>Price</h2>
+							<h3 class="counter-number">
+								$<span class="counter">0.009</span>
+							</h3>
+						</div>
+						<div class="market_cap_content">
+							<h2>Fund Raised</h2>
+							<h3 class="counter-number">$<span class="counter">160</span>M</h3>
+						</div>
+					</div>
+				</div>
+				<span class="red-border-gradient"></span>
+				<span class="green-border-gradient"></span>
+			</div>
+
+			<!-- Project Section Start -->
+			<div
+				class="gamfi-project-section project_pools_sect main-project-area pb-0"
+			>
+				<div class="container">
+					<div
+						class="sec-inner align-items-center d-flex justify-content-between flex-wrap mb-30"
+					>
+						<div class="sec-heading">
+							<div class="sub-inner mb-15">
+								<span class="sub-title">EXPLORE</span>
+								<img
+									class="heading-left-image"
+									src="assets/images/icons/steps.png"
+									alt="Steps-Image"
+								/>
+							</div>
+							<h2 class="title">Project POOLS</h2>
+						</div>
+						<div class="gamfi-btn-area project_v2_tab_btns">
+							<ul>
+								<li
+									class="project_v2_tab_links m-0 active"
+									onclick="openProject(event, 'ProectV2_OnGoing')"
+									id="OpenProject"
+								>
+									<button class="readon white-btn black-shape m-0">
+										<span class="btn-text">On going</span>
+										<span class="hover-shape1"></span>
+										<span class="hover-shape2"></span>
+										<span class="hover-shape3"></span>
+									</button>
+								</li>
+
+								<li
+									class="project_v2_tab_links"
+									onclick="openProject(event, 'ProectV2_UPCOMING')"
+								>
+									<button class="readon white-btn black-shape m-0">
+										<span class="btn-text">UPCOMING</span>
+										<span class="hover-shape1"></span>
+										<span class="hover-shape2"></span>
+										<span class="hover-shape3"></span>
+									</button>
+								</li>
+
+								<li
+									class="project_v2_tab_links"
+									onclick="openProject(event, 'ProectV2_ENDED')"
+								>
+									<button class="readon white-btn black-shape m-0">
+										<span class="btn-text">ENDED</span>
+										<span class="hover-shape1"></span>
+										<span class="hover-shape2"></span>
+										<span class="hover-shape3"></span>
+									</button>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="project_v2_tab_content_sect">
+						<div
+							id="ProectV2_OnGoing"
+							class="project_v2_tab_content animate_opacity"
+							style="display: block"
+						>
+							<div class="row align-items-center">
+								<div class="col-lg-4 col-md-6">
+									<div
+										class="project-item project_item_v2 hover-shape-border wow fadeInRight"
+										data-wow-delay="0.2s"
+										data-wow-duration="0.4s"
+										style="
+											visibility: visible;
+											animation-duration: 0.4s;
+											animation-delay: 0.2s;
+											animation-name: fadeInRight;
+										"
+									>
+										<div class="project-info d-flex">
+											<a href="project-details.html">
+												<img
+													src="assets/images/project/project-image.png"
+													alt="Project-Image"
+												/>
+											</a>
+											<div class="project-auother">
+												<h4 class="mb-10">
+													<a href="project-details.html">Galaxy War</a>
+												</h4>
+												<div class="dsc">PRICE (GAC) = 0.59 BUSD</div>
+											</div>
+										</div>
+										<div class="project-content">
+											<div
+												class="project-header d-flex justify-content-between"
+											>
+												<div class="heading-title heading-title-v2">
+													<div class="price-counter">
+														<div class="timer timer_1">
+															<ul>
+																<li class="days">-67<span>D</span></li>
+																<li class="hours">13<span>H</span></li>
+																<li class="minutes">53<span>M</span></li>
+																<li class="seconds">31<span>S</span></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+												<div class="project-icon">
+													<img
+														src="assets/images/project/project-single-image.png"
+														alt="Project-Image"
+													/>
+												</div>
+											</div>
+											<div class="project-media">
+												<ul class="project-listing">
+													<li>Min allocation <span>0.33 BUSD</span></li>
+													<li>Max allocation <span>900.00 BUSD</span></li>
+													<li>Targeted raise <span>200,000 BUSD</span></li>
+													<li>Access type <span>Public</span></li>
+												</ul>
+											</div>
+										</div>
+										<div class="social_icons_sect">
+											<ul class="social_icon_list">
+												<li>
+													<a href="#"><i class="icon-telegram"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-twitter"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-discord"></i></a>
+												</li>
+												<li class="medium">
+													<a href="#"><i class="icon-medium"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-world"></i></a>
+												</li>
+											</ul>
+										</div>
+										<span class="border-shadow shadow-1"></span>
+										<span class="border-shadow shadow-2"></span>
+										<span class="border-shadow shadow-3"></span>
+										<span class="border-shadow shadow-4"></span>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div
+										class="project-item project_item_v2 hover-shape-border wow fadeInRight"
+										data-wow-delay="0.3s"
+										data-wow-duration="0.5s"
+										style="
+											visibility: visible;
+											animation-duration: 0.5s;
+											animation-delay: 0.3s;
+											animation-name: fadeInRight;
+										"
+									>
+										<div class="project-info d-flex">
+											<a href="project-details.html">
+												<img
+													src="assets/images/project/project-image2.png"
+													alt="Project-Image"
+												/>
+											</a>
+											<div class="project-auother">
+												<h4 class="mb-10">
+													<a href="project-details.html">Super Sidero</a>
+												</h4>
+												<div class="dsc">PRICE (SSC) = 0.13 BUSD</div>
+											</div>
+										</div>
+										<div class="project-content">
+											<div
+												class="project-header d-flex justify-content-between"
+											>
+												<div class="heading-title heading-title-v2">
+													<div class="price-counter">
+														<div class="timer timer_2">
+															<ul>
+																<li class="days">-64<span>D</span></li>
+																<li class="hours">17<span>H</span></li>
+																<li class="minutes">48<span>M</span></li>
+																<li class="seconds">46<span>S</span></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+												<div class="project-icon">
+													<img
+														src="assets/images/project/project-single-image2.png"
+														alt="Project-Image"
+													/>
+												</div>
+											</div>
+
+											<div class="project-media">
+												<ul class="project-listing">
+													<li>Min allocation <span>0.89 BUSD</span></li>
+													<li>Max allocation <span>300.00 BUSD</span></li>
+													<li>Targeted raise <span>899,900 BUSD</span></li>
+													<li>Access type <span>Public</span></li>
+												</ul>
+											</div>
+										</div>
+										<div class="social_icons_sect">
+											<ul class="social_icon_list">
+												<li>
+													<a href="#"><i class="icon-telegram"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-twitter"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-discord"></i></a>
+												</li>
+												<li class="medium">
+													<a href="#"><i class="icon-medium"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-world"></i></a>
+												</li>
+											</ul>
+										</div>
+										<span class="border-shadow shadow-1"></span>
+										<span class="border-shadow shadow-2"></span>
+										<span class="border-shadow shadow-3"></span>
+										<span class="border-shadow shadow-4"></span>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div
+										class="project-item project_item_v2 hover-shape-border wow fadeInRight"
+										data-wow-delay="0.4s"
+										data-wow-duration="0.6s"
+										style="
+											visibility: visible;
+											animation-duration: 0.6s;
+											animation-delay: 0.4s;
+											animation-name: fadeInRight;
+										"
+									>
+										<div class="project-info d-flex">
+											<a href="project-details.html">
+												<img
+													src="assets/images/project/project-image3.png"
+													alt="Project-Image"
+												/>
+											</a>
+											<div class="project-auother">
+												<h4 class="mb-10">
+													<a href="project-details.html">Meta World</a>
+												</h4>
+												<div class="dsc">PRICE (MTS) = 0.33 BUSD</div>
+											</div>
+										</div>
+										<div class="project-content">
+											<div
+												class="project-header d-flex justify-content-between"
+											>
+												<div class="heading-title heading-title-v2">
+													<div class="price-counter">
+														<div class="timer timer_3">
+															<ul>
+																<li class="days">-61<span>D</span></li>
+																<li class="hours">20<span>H</span></li>
+																<li class="minutes">56<span>M</span></li>
+																<li class="seconds">41<span>S</span></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+												<div class="project-icon">
+													<img
+														src="assets/images/project/project-single-image3.png"
+														alt="Project-Image"
+													/>
+												</div>
+											</div>
+
+											<div class="project-media">
+												<ul class="project-listing">
+													<li>Min allocation <span>2.25 BUSD</span></li>
+													<li>Max allocation <span>1000.00 BUSD</span></li>
+													<li>Targeted raise <span>50,00,000 BUSD</span></li>
+													<li>Access type <span>Public</span></li>
+												</ul>
+											</div>
+										</div>
+										<div class="social_icons_sect">
+											<ul class="social_icon_list">
+												<li>
+													<a href="#"><i class="icon-telegram"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-twitter"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-discord"></i></a>
+												</li>
+												<li class="medium">
+													<a href="#"><i class="icon-medium"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-world"></i></a>
+												</li>
+											</ul>
+										</div>
+										<span class="border-shadow shadow-1"></span>
+										<span class="border-shadow shadow-2"></span>
+										<span class="border-shadow shadow-3"></span>
+										<span class="border-shadow shadow-4"></span>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div
+										class="project-item project_item_v2 hover-shape-border wow fadeInRight"
+										data-wow-delay="0.5s"
+										data-wow-duration="0.7s"
+										style="
+											visibility: visible;
+											animation-duration: 0.7s;
+											animation-delay: 0.5s;
+											animation-name: fadeInRight;
+										"
+									>
+										<div class="project-info d-flex">
+											<a href="project-details.html">
+												<img
+													src="assets/images/project/project-image4.png"
+													alt="Project-Image"
+												/>
+											</a>
+											<div class="project-auother">
+												<h4 class="mb-10">
+													<a href="project-details.html">Fisrt Survivor</a>
+												</h4>
+												<div class="dsc">PRICE (FSC) = 0.89 BUSD</div>
+											</div>
+										</div>
+										<div class="project-content hover-shape-border">
+											<div
+												class="project-header d-flex justify-content-between"
+											>
+												<div class="heading-title heading-title-v2">
+													<div class="price-counter">
+														<div class="timer timer_4">
+															<ul>
+																<li class="days">-60<span>D</span></li>
+																<li class="hours">18<span>H</span></li>
+																<li class="minutes">51<span>M</span></li>
+																<li class="seconds">36<span>S</span></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+												<div class="project-icon">
+													<img
+														src="assets/images/project/project-single-image4.png"
+														alt="Project-Image"
+													/>
+												</div>
+											</div>
+											<div class="project-media">
+												<ul class="project-listing">
+													<li>Min allocation <span>0.59 BUSD</span></li>
+													<li>Max allocation <span>399.00 BUSD</span></li>
+													<li>Targeted raise <span>500,000 BUSD</span></li>
+													<li>Access type <span>Public</span></li>
+												</ul>
+											</div>
+										</div>
+										<div class="social_icons_sect">
+											<ul class="social_icon_list">
+												<li>
+													<a href="#"><i class="icon-telegram"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-twitter"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-discord"></i></a>
+												</li>
+												<li class="medium">
+													<a href="#"><i class="icon-medium"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-world"></i></a>
+												</li>
+											</ul>
+										</div>
+										<span class="border-shadow shadow-1"></span>
+										<span class="border-shadow shadow-2"></span>
+										<span class="border-shadow shadow-3"></span>
+										<span class="border-shadow shadow-4"></span>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div
+										class="project-item project_item_v2 hover-shape-border wow fadeInRight"
+										data-wow-delay="0.6s"
+										data-wow-duration="0.8s"
+										style="
+											visibility: visible;
+											animation-duration: 0.8s;
+											animation-delay: 0.6s;
+											animation-name: fadeInRight;
+										"
+									>
+										<div class="project-info d-flex">
+											<a href="project-details.html">
+												<img
+													src="assets/images/project/project-image5.png"
+													alt="Project-Image"
+												/>
+											</a>
+											<div class="project-auother">
+												<h4 class="mb-10">
+													<a href="project-details.html">Cryowar Two</a>
+												</h4>
+												<div class="dsc">PRICE (CTC) = 0.45 BUSD</div>
+											</div>
+										</div>
+										<div class="project-content hover-shape-border">
+											<div
+												class="project-header d-flex justify-content-between"
+											>
+												<div class="heading-title heading-title-v2">
+													<div class="price-counter">
+														<div class="timer timer_5">
+															<ul>
+																<li class="days">-62<span>D</span></li>
+																<li class="hours">23<span>H</span></li>
+																<li class="minutes">14<span>M</span></li>
+																<li class="seconds">05<span>S</span></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+												<div class="project-icon">
+													<img
+														src="assets/images/project/project-single-image5.png"
+														alt="Project-Image"
+													/>
+												</div>
+											</div>
+											<div class="project-media">
+												<ul class="project-listing">
+													<li>Min allocation <span>0.66 BUSD</span></li>
+													<li>Max allocation <span>800.00 BUSD</span></li>
+													<li>Targeted raise <span>999,000 BUSD</span></li>
+													<li>Access type <span>Public</span></li>
+												</ul>
+											</div>
+										</div>
+										<div class="social_icons_sect">
+											<ul class="social_icon_list">
+												<li>
+													<a href="#"><i class="icon-telegram"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-twitter"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-discord"></i></a>
+												</li>
+												<li class="medium">
+													<a href="#"><i class="icon-medium"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-world"></i></a>
+												</li>
+											</ul>
+										</div>
+										<span class="border-shadow shadow-1"></span>
+										<span class="border-shadow shadow-2"></span>
+										<span class="border-shadow shadow-3"></span>
+										<span class="border-shadow shadow-4"></span>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div
+										class="project-item project_item_v2 hover-shape-border wow fadeInRight"
+										data-wow-delay="0.7s"
+										data-wow-duration="0.9s"
+										style="
+											visibility: visible;
+											animation-duration: 0.9s;
+											animation-delay: 0.7s;
+											animation-name: fadeInRight;
+										"
+									>
+										<div class="project-info d-flex">
+											<a href="project-details.html">
+												<img
+													src="assets/images/project/project-image6.png"
+													alt="Project-Image"
+												/>
+											</a>
+											<div class="project-auother">
+												<h4 class="mb-10">
+													<a href="project-details.html">Gaia Everworld</a>
+												</h4>
+												<div class="dsc">PRICE (GAC) = 0.13 BUSD</div>
+											</div>
+										</div>
+										<div class="project-content">
+											<div
+												class="project-header d-flex justify-content-between"
+											>
+												<div class="heading-title heading-title-v2">
+													<div class="price-counter">
+														<div class="timer timer_6">
+															<ul>
+																<li class="days">-62<span>D</span></li>
+																<li class="hours">23<span>H</span></li>
+																<li class="minutes">14<span>M</span></li>
+																<li class="seconds">05<span>S</span></li>
+															</ul>
+														</div>
+													</div>
+												</div>
+												<div class="project-icon">
+													<img
+														src="assets/images/project/project-single-image6.png"
+														alt="Project-Image"
+													/>
+												</div>
+											</div>
+
+											<div class="project-media">
+												<ul class="project-listing">
+													<li>Min allocation <span>0.25 BUSD</span></li>
+													<li>Max allocation <span>500.00 BUSD</span></li>
+													<li>Targeted raise <span>888,000 BUSD</span></li>
+													<li>Access type <span>Public</span></li>
+												</ul>
+											</div>
+										</div>
+										<div class="social_icons_sect">
+											<ul class="social_icon_list">
+												<li>
+													<a href="#"><i class="icon-telegram"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-twitter"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-discord"></i></a>
+												</li>
+												<li class="medium">
+													<a href="#"><i class="icon-medium"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-world"></i></a>
+												</li>
+											</ul>
+										</div>
+										<span class="border-shadow shadow-1"></span>
+										<span class="border-shadow shadow-2"></span>
+										<span class="border-shadow shadow-3"></span>
+										<span class="border-shadow shadow-4"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div
+							id="ProectV2_UPCOMING"
+							class="project_v2_tab_content animate_opacity"
+							style="display: none"
+						>
+							<div class="row align-items-center">
+								<div class="col-lg-4 col-md-6">
+									<div class="project-item project_item_v2 hover-shape-border">
+										<div class="project-info d-flex">
+											<a href="project-details.html">
+												<img
+													src="assets/images/project/privius-image2.png"
+													alt="Project-Image"
+												/>
+											</a>
+											<div class="project-auother">
+												<h4 class="mb-10">
+													<a href="project-details.html">KyberDyne</a>
+												</h4>
+												<div class="dsc">PRICE (GAC) = 0.59 BUSD</div>
+											</div>
+										</div>
+										<div class="project-content">
+											<div
+												class="project-header d-flex justify-content-between"
+											>
+												<div class="heading-title heading-title-v2">
+													<div class="heading-title">
+														<h4>08 Days Left</h4>
+													</div>
+												</div>
+												<div class="project-icon">
+													<img
+														src="assets/images/project/project-single-image.png"
+														alt="Project-Image"
+													/>
+												</div>
+											</div>
+											<div class="project-media">
+												<ul class="project-listing">
+													<li>Min allocation <span>0.33 BUSD</span></li>
+													<li>Max allocation <span>900.00 BUSD</span></li>
+													<li>Targeted raise <span>200,000 BUSD</span></li>
+													<li>Access type <span>Public</span></li>
+												</ul>
+											</div>
+										</div>
+										<div class="social_icons_sect">
+											<ul class="social_icon_list">
+												<li>
+													<a href="#"><i class="icon-telegram"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-twitter"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-discord"></i></a>
+												</li>
+												<li class="medium">
+													<a href="#"><i class="icon-medium"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-world"></i></a>
+												</li>
+											</ul>
+										</div>
+										<span class="border-shadow shadow-1"></span>
+										<span class="border-shadow shadow-2"></span>
+										<span class="border-shadow shadow-3"></span>
+										<span class="border-shadow shadow-4"></span>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div class="project-item project_item_v2 hover-shape-border">
+										<div class="project-info d-flex">
+											<a href="project-details.html">
+												<img
+													src="assets/images/project/privius-image7.png"
+													alt="Project-Image"
+												/>
+											</a>
+											<div class="project-auother">
+												<h4 class="mb-10">
+													<a href="project-details.html">Thetan Arena</a>
+												</h4>
+												<div class="dsc">PRICE (SSC) = 0.13 BUSD</div>
+											</div>
+										</div>
+										<div class="project-content">
+											<div
+												class="project-header d-flex justify-content-between"
+											>
+												<div class="heading-title heading-title-v2">
+													<div class="heading-title">
+														<h4>12 Days Left</h4>
+													</div>
+												</div>
+												<div class="project-icon">
+													<img
+														src="assets/images/project/project-single-image2.png"
+														alt="Project-Image"
+													/>
+												</div>
+											</div>
+
+											<div class="project-media">
+												<ul class="project-listing">
+													<li>Min allocation <span>0.89 BUSD</span></li>
+													<li>Max allocation <span>300.00 BUSD</span></li>
+													<li>Targeted raise <span>899,900 BUSD</span></li>
+													<li>Access type <span>Public</span></li>
+												</ul>
+											</div>
+										</div>
+										<div class="social_icons_sect">
+											<ul class="social_icon_list">
+												<li>
+													<a href="#"><i class="icon-telegram"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-twitter"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-discord"></i></a>
+												</li>
+												<li class="medium">
+													<a href="#"><i class="icon-medium"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-world"></i></a>
+												</li>
+											</ul>
+										</div>
+										<span class="border-shadow shadow-1"></span>
+										<span class="border-shadow shadow-2"></span>
+										<span class="border-shadow shadow-3"></span>
+										<span class="border-shadow shadow-4"></span>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div class="project-item project_item_v2 hover-shape-border">
+										<div class="project-info d-flex">
+											<a href="project-details.html">
+												<img
+													src="assets/images/project/project-image3.png"
+													alt="Project-Image"
+												/>
+											</a>
+											<div class="project-auother">
+												<h4 class="mb-10">
+													<a href="project-details.html">Galaxy War</a>
+												</h4>
+												<div class="dsc">PRICE (MTS) = 0.33 BUSD</div>
+											</div>
+										</div>
+										<div class="project-content">
+											<div
+												class="project-header d-flex justify-content-between"
+											>
+												<div class="heading-title heading-title-v2">
+													<div class="heading-title">
+														<h4>15 Days Left</h4>
+													</div>
+												</div>
+												<div class="project-icon">
+													<img
+														src="assets/images/project/project-single-image3.png"
+														alt="Project-Image"
+													/>
+												</div>
+											</div>
+
+											<div class="project-media">
+												<ul class="project-listing">
+													<li>Min allocation <span>2.25 BUSD</span></li>
+													<li>Max allocation <span>1000.00 BUSD</span></li>
+													<li>Targeted raise <span>50,00,000 BUSD</span></li>
+													<li>Access type <span>Public</span></li>
+												</ul>
+											</div>
+										</div>
+										<div class="social_icons_sect">
+											<ul class="social_icon_list">
+												<li>
+													<a href="#"><i class="icon-telegram"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-twitter"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-discord"></i></a>
+												</li>
+												<li class="medium">
+													<a href="#"><i class="icon-medium"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-world"></i></a>
+												</li>
+											</ul>
+										</div>
+										<span class="border-shadow shadow-1"></span>
+										<span class="border-shadow shadow-2"></span>
+										<span class="border-shadow shadow-3"></span>
+										<span class="border-shadow shadow-4"></span>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div class="project-item project_item_v2 hover-shape-border">
+										<div class="project-info d-flex">
+											<a href="project-details.html">
+												<img
+													src="assets/images/project/privius-image.png"
+													alt="Project-Image"
+												/>
+											</a>
+											<div class="project-auother">
+												<h4 class="mb-10">
+													<a href="project-details.html">KingdomX</a>
+												</h4>
+												<div class="dsc">PRICE (FSC) = 0.89 BUSD</div>
+											</div>
+										</div>
+										<div class="project-content hover-shape-border">
+											<div
+												class="project-header d-flex justify-content-between"
+											>
+												<div class="heading-title heading-title-v2">
+													<div class="heading-title">
+														<h4>20 Days Left</h4>
+													</div>
+												</div>
+												<div class="project-icon">
+													<img
+														src="assets/images/project/project-single-image4.png"
+														alt="Project-Image"
+													/>
+												</div>
+											</div>
+											<div class="project-media">
+												<ul class="project-listing">
+													<li>Min allocation <span>0.59 BUSD</span></li>
+													<li>Max allocation <span>399.00 BUSD</span></li>
+													<li>Targeted raise <span>500,000 BUSD</span></li>
+													<li>Access type <span>Public</span></li>
+												</ul>
+											</div>
+										</div>
+										<div class="social_icons_sect">
+											<ul class="social_icon_list">
+												<li>
+													<a href="#"><i class="icon-telegram"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-twitter"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-discord"></i></a>
+												</li>
+												<li class="medium">
+													<a href="#"><i class="icon-medium"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-world"></i></a>
+												</li>
+											</ul>
+										</div>
+										<span class="border-shadow shadow-1"></span>
+										<span class="border-shadow shadow-2"></span>
+										<span class="border-shadow shadow-3"></span>
+										<span class="border-shadow shadow-4"></span>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div class="project-item project_item_v2 hover-shape-border">
+										<div class="project-info d-flex">
+											<a href="project-details.html">
+												<img
+													src="assets/images/project/privius-image5.png"
+													alt="Project-Image"
+												/>
+											</a>
+											<div class="project-auother">
+												<h4 class="mb-10">
+													<a href="project-details.html">Cyber City</a>
+												</h4>
+												<div class="dsc">PRICE (CTC) = 0.45 BUSD</div>
+											</div>
+										</div>
+										<div class="project-content hover-shape-border">
+											<div
+												class="project-header d-flex justify-content-between"
+											>
+												<div class="heading-title heading-title-v2">
+													<div class="heading-title">
+														<h4>25 Days Left</h4>
+													</div>
+												</div>
+												<div class="project-icon">
+													<img
+														src="assets/images/project/project-single-image5.png"
+														alt="Project-Image"
+													/>
+												</div>
+											</div>
+											<div class="project-media">
+												<ul class="project-listing">
+													<li>Min allocation <span>0.66 BUSD</span></li>
+													<li>Max allocation <span>800.00 BUSD</span></li>
+													<li>Targeted raise <span>999,000 BUSD</span></li>
+													<li>Access type <span>Public</span></li>
+												</ul>
+											</div>
+										</div>
+										<div class="social_icons_sect">
+											<ul class="social_icon_list">
+												<li>
+													<a href="#"><i class="icon-telegram"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-twitter"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-discord"></i></a>
+												</li>
+												<li class="medium">
+													<a href="#"><i class="icon-medium"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-world"></i></a>
+												</li>
+											</ul>
+										</div>
+										<span class="border-shadow shadow-1"></span>
+										<span class="border-shadow shadow-2"></span>
+										<span class="border-shadow shadow-3"></span>
+										<span class="border-shadow shadow-4"></span>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div class="project-item project_item_v2 hover-shape-border">
+										<div class="project-info d-flex">
+											<a href="project-details.html">
+												<img
+													src="assets/images/project/project-image.png"
+													alt="Project-Image"
+												/>
+											</a>
+											<div class="project-auother">
+												<h4 class="mb-10">
+													<a href="project-details.html">Gaia Everworld</a>
+												</h4>
+												<div class="dsc">PRICE (GAC) = 0.13 BUSD</div>
+											</div>
+										</div>
+										<div class="project-content">
+											<div
+												class="project-header d-flex justify-content-between"
+											>
+												<div class="heading-title heading-title-v2">
+													<div class="heading-title">
+														<h4>30 Days Left</h4>
+													</div>
+												</div>
+												<div class="project-icon">
+													<img
+														src="assets/images/project/project-single-image6.png"
+														alt="Project-Image"
+													/>
+												</div>
+											</div>
+
+											<div class="project-media">
+												<ul class="project-listing">
+													<li>Min allocation <span>0.25 BUSD</span></li>
+													<li>Max allocation <span>500.00 BUSD</span></li>
+													<li>Targeted raise <span>888,000 BUSD</span></li>
+													<li>Access type <span>Public</span></li>
+												</ul>
+											</div>
+										</div>
+										<div class="social_icons_sect">
+											<ul class="social_icon_list">
+												<li>
+													<a href="#"><i class="icon-telegram"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-twitter"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-discord"></i></a>
+												</li>
+												<li class="medium">
+													<a href="#"><i class="icon-medium"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-world"></i></a>
+												</li>
+											</ul>
+										</div>
+										<span class="border-shadow shadow-1"></span>
+										<span class="border-shadow shadow-2"></span>
+										<span class="border-shadow shadow-3"></span>
+										<span class="border-shadow shadow-4"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div
+							id="ProectV2_ENDED"
+							class="project_v2_tab_content animate_opacity"
+							style="display: none"
+						>
+							<div class="row align-items-center">
+								<div class="col-lg-4 col-md-6">
+									<div class="project-item project_item_v2 hover-shape-border">
+										<div class="project-info d-flex">
+											<a href="project-details.html">
+												<img
+													src="assets/images/project/privius-image10.png"
+													alt="Project-Image"
+												/>
+											</a>
+											<div class="project-auother">
+												<h4 class="mb-10">
+													<a href="project-details.html">KyberDyne</a>
+												</h4>
+												<div class="dsc">PRICE (GAC) = 0.59 BUSD</div>
+											</div>
+										</div>
+										<div class="project-content">
+											<div
+												class="project-header d-flex justify-content-between"
+											>
+												<div class="heading-title heading-title-v2">
+													<div class="heading-title">
+														<h4>07 Days Ago</h4>
+													</div>
+												</div>
+												<div class="project-icon">
+													<img
+														src="assets/images/project/project-single-image.png"
+														alt="Project-Image"
+													/>
+												</div>
+											</div>
+											<div class="project-media">
+												<ul class="project-listing">
+													<li>Min allocation <span>0.33 BUSD</span></li>
+													<li>Max allocation <span>900.00 BUSD</span></li>
+													<li>Targeted raise <span>200,000 BUSD</span></li>
+													<li>Access type <span>Public</span></li>
+												</ul>
+											</div>
+										</div>
+										<div class="social_icons_sect">
+											<ul class="social_icon_list">
+												<li>
+													<a href="#"><i class="icon-telegram"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-twitter"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-discord"></i></a>
+												</li>
+												<li class="medium">
+													<a href="#"><i class="icon-medium"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-world"></i></a>
+												</li>
+											</ul>
+										</div>
+										<span class="border-shadow shadow-1"></span>
+										<span class="border-shadow shadow-2"></span>
+										<span class="border-shadow shadow-3"></span>
+										<span class="border-shadow shadow-4"></span>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div class="project-item project_item_v2 hover-shape-border">
+										<div class="project-info d-flex">
+											<a href="project-details.html">
+												<img
+													src="assets/images/project/privius-image5.png"
+													alt="Project-Image"
+												/>
+											</a>
+											<div class="project-auother">
+												<h4 class="mb-10">
+													<a href="project-details.html">Thetan Arena</a>
+												</h4>
+												<div class="dsc">PRICE (SSC) = 0.13 BUSD</div>
+											</div>
+										</div>
+										<div class="project-content">
+											<div
+												class="project-header d-flex justify-content-between"
+											>
+												<div class="heading-title heading-title-v2">
+													<div class="heading-title">
+														<h4>08 Days Ago</h4>
+													</div>
+												</div>
+												<div class="project-icon">
+													<img
+														src="assets/images/project/project-single-image2.png"
+														alt="Project-Image"
+													/>
+												</div>
+											</div>
+
+											<div class="project-media">
+												<ul class="project-listing">
+													<li>Min allocation <span>0.89 BUSD</span></li>
+													<li>Max allocation <span>300.00 BUSD</span></li>
+													<li>Targeted raise <span>899,900 BUSD</span></li>
+													<li>Access type <span>Public</span></li>
+												</ul>
+											</div>
+										</div>
+										<div class="social_icons_sect">
+											<ul class="social_icon_list">
+												<li>
+													<a href="#"><i class="icon-telegram"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-twitter"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-discord"></i></a>
+												</li>
+												<li class="medium">
+													<a href="#"><i class="icon-medium"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-world"></i></a>
+												</li>
+											</ul>
+										</div>
+										<span class="border-shadow shadow-1"></span>
+										<span class="border-shadow shadow-2"></span>
+										<span class="border-shadow shadow-3"></span>
+										<span class="border-shadow shadow-4"></span>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div class="project-item project_item_v2 hover-shape-border">
+										<div class="project-info d-flex">
+											<a href="project-details.html">
+												<img
+													src="assets/images/project/project-image4.png"
+													alt="Project-Image"
+												/>
+											</a>
+											<div class="project-auother">
+												<h4 class="mb-10">
+													<a href="project-details.html">Galaxy War</a>
+												</h4>
+												<div class="dsc">PRICE (MTS) = 0.33 BUSD</div>
+											</div>
+										</div>
+										<div class="project-content">
+											<div
+												class="project-header d-flex justify-content-between"
+											>
+												<div class="heading-title heading-title-v2">
+													<div class="heading-title">
+														<h4>10 Days Ago</h4>
+													</div>
+												</div>
+												<div class="project-icon">
+													<img
+														src="assets/images/project/project-single-image3.png"
+														alt="Project-Image"
+													/>
+												</div>
+											</div>
+
+											<div class="project-media">
+												<ul class="project-listing">
+													<li>Min allocation <span>2.25 BUSD</span></li>
+													<li>Max allocation <span>1000.00 BUSD</span></li>
+													<li>Targeted raise <span>50,00,000 BUSD</span></li>
+													<li>Access type <span>Public</span></li>
+												</ul>
+											</div>
+										</div>
+										<div class="social_icons_sect">
+											<ul class="social_icon_list">
+												<li>
+													<a href="#"><i class="icon-telegram"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-twitter"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-discord"></i></a>
+												</li>
+												<li class="medium">
+													<a href="#"><i class="icon-medium"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-world"></i></a>
+												</li>
+											</ul>
+										</div>
+										<span class="border-shadow shadow-1"></span>
+										<span class="border-shadow shadow-2"></span>
+										<span class="border-shadow shadow-3"></span>
+										<span class="border-shadow shadow-4"></span>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div class="project-item project_item_v2 hover-shape-border">
+										<div class="project-info d-flex">
+											<a href="project-details.html">
+												<img
+													src="assets/images/project/privius-image2.png"
+													alt="Project-Image"
+												/>
+											</a>
+											<div class="project-auother">
+												<h4 class="mb-10">
+													<a href="project-details.html">KingdomX</a>
+												</h4>
+												<div class="dsc">PRICE (FSC) = 0.89 BUSD</div>
+											</div>
+										</div>
+										<div class="project-content hover-shape-border">
+											<div
+												class="project-header d-flex justify-content-between"
+											>
+												<div class="heading-title heading-title-v2">
+													<div class="heading-title">
+														<h4>14 Days Ago</h4>
+													</div>
+												</div>
+												<div class="project-icon">
+													<img
+														src="assets/images/project/project-single-image4.png"
+														alt="Project-Image"
+													/>
+												</div>
+											</div>
+											<div class="project-media">
+												<ul class="project-listing">
+													<li>Min allocation <span>0.59 BUSD</span></li>
+													<li>Max allocation <span>399.00 BUSD</span></li>
+													<li>Targeted raise <span>500,000 BUSD</span></li>
+													<li>Access type <span>Public</span></li>
+												</ul>
+											</div>
+										</div>
+										<div class="social_icons_sect">
+											<ul class="social_icon_list">
+												<li>
+													<a href="#"><i class="icon-telegram"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-twitter"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-discord"></i></a>
+												</li>
+												<li class="medium">
+													<a href="#"><i class="icon-medium"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-world"></i></a>
+												</li>
+											</ul>
+										</div>
+										<span class="border-shadow shadow-1"></span>
+										<span class="border-shadow shadow-2"></span>
+										<span class="border-shadow shadow-3"></span>
+										<span class="border-shadow shadow-4"></span>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div class="project-item project_item_v2 hover-shape-border">
+										<div class="project-info d-flex">
+											<a href="project-details.html">
+												<img
+													src="assets/images/project/privius-image.png"
+													alt="Project-Image"
+												/>
+											</a>
+											<div class="project-auother">
+												<h4 class="mb-10">
+													<a href="project-details.html">Cyber City</a>
+												</h4>
+												<div class="dsc">PRICE (CTC) = 0.45 BUSD</div>
+											</div>
+										</div>
+										<div class="project-content hover-shape-border">
+											<div
+												class="project-header d-flex justify-content-between"
+											>
+												<div class="heading-title heading-title-v2">
+													<div class="heading-title">
+														<h4>17 Days Ago</h4>
+													</div>
+												</div>
+												<div class="project-icon">
+													<img
+														src="assets/images/project/project-single-image5.png"
+														alt="Project-Image"
+													/>
+												</div>
+											</div>
+											<div class="project-media">
+												<ul class="project-listing">
+													<li>Min allocation <span>0.66 BUSD</span></li>
+													<li>Max allocation <span>800.00 BUSD</span></li>
+													<li>Targeted raise <span>999,000 BUSD</span></li>
+													<li>Access type <span>Public</span></li>
+												</ul>
+											</div>
+										</div>
+										<div class="social_icons_sect">
+											<ul class="social_icon_list">
+												<li>
+													<a href="#"><i class="icon-telegram"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-twitter"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-discord"></i></a>
+												</li>
+												<li class="medium">
+													<a href="#"><i class="icon-medium"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-world"></i></a>
+												</li>
+											</ul>
+										</div>
+										<span class="border-shadow shadow-1"></span>
+										<span class="border-shadow shadow-2"></span>
+										<span class="border-shadow shadow-3"></span>
+										<span class="border-shadow shadow-4"></span>
+									</div>
+								</div>
+								<div class="col-lg-4 col-md-6">
+									<div class="project-item project_item_v2 hover-shape-border">
+										<div class="project-info d-flex">
+											<a href="project-details.html">
+												<img
+													src="assets/images/project/project-image3.png"
+													alt="Project-Image"
+												/>
+											</a>
+											<div class="project-auother">
+												<h4 class="mb-10">
+													<a href="project-details.html">Gaia Everworld</a>
+												</h4>
+												<div class="dsc">PRICE (GAC) = 0.13 BUSD</div>
+											</div>
+										</div>
+										<div class="project-content">
+											<div
+												class="project-header d-flex justify-content-between"
+											>
+												<div class="heading-title heading-title-v2">
+													<div class="heading-title">
+														<h4>30 Days Ago</h4>
+													</div>
+												</div>
+												<div class="project-icon">
+													<img
+														src="assets/images/project/project-single-image6.png"
+														alt="Project-Image"
+													/>
+												</div>
+											</div>
+
+											<div class="project-media">
+												<ul class="project-listing">
+													<li>Min allocation <span>0.25 BUSD</span></li>
+													<li>Max allocation <span>500.00 BUSD</span></li>
+													<li>Targeted raise <span>888,000 BUSD</span></li>
+													<li>Access type <span>Public</span></li>
+												</ul>
+											</div>
+										</div>
+										<div class="social_icons_sect">
+											<ul class="social_icon_list">
+												<li>
+													<a href="#"><i class="icon-telegram"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-twitter"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-discord"></i></a>
+												</li>
+												<li class="medium">
+													<a href="#"><i class="icon-medium"></i></a>
+												</li>
+												<li>
+													<a href="#"><i class="icon-world"></i></a>
+												</li>
+											</ul>
+										</div>
+										<span class="border-shadow shadow-1"></span>
+										<span class="border-shadow shadow-2"></span>
+										<span class="border-shadow shadow-3"></span>
+										<span class="border-shadow shadow-4"></span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Key Points Start -->
+			<div class="key_points_section main-project-area">
+				<div class="key_points_bg">
+					<div class="bg-stone">
+						<span class="stone1"
+							><img
+								src="assets/images/icons/stone1.svg"
+								alt=""
+								class="img-fluid"
+						/></span>
+						<span class="stone2"
+							><img
+								src="assets/images/icons/stone2.svg"
+								alt=""
+								class="img-fluid"
+						/></span>
+						<span class="stone3"
+							><img
+								src="assets/images/icons/stone3.svg"
+								alt=""
+								class="img-fluid"
+						/></span>
+					</div>
+				</div>
+				<div class="container">
+					<div class="sec-inner align-items-center mb-30">
+						<div class="sec-heading">
+							<div class="sub-inner mb-15">
+								<span class="sub-title">FEATURES</span>
+								<img
+									class="heading-left-image"
+									src="assets/images/icons/steps.png"
+									alt="Steps-Image"
+								/>
+							</div>
+							<h2 class="title">Key Points</h2>
+						</div>
+						<div class="key_points_content">
+							<div class="row">
+								<div class="col-md-3 col-sm-6">
+									<div
+										class="key_points_items wow fadeInUp"
+										data-wow-delay="0.2s"
+										data-wow-duration="0.4s"
+										style="
+											visibility: visible;
+											animation-duration: 0.4s;
+											animation-delay: 0.2s;
+											animation-name: fadeInUp;
+										"
+									>
+										<div class="key_points_item_img">
+											<img
+												src="assets/images/icons/Key_icon1.png"
+												alt="icon"
+												class="img-fluid"
+											/>
+										</div>
+										<div class="key_points_item_text">
+											<h3>Decentralized</h3>
+											<p>
+												If you are going to use a passage of Lorem Ipsum, you
+												need to be sure there isn't anything embarrassing
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div
+										class="key_points_items wow fadeInUp"
+										data-wow-delay="0.3s"
+										data-wow-duration="0.5s"
+										style="
+											visibility: visible;
+											animation-duration: 0.5s;
+											animation-delay: 0.3s;
+											animation-name: fadeInUp;
+										"
+									>
+										<div class="key_points_item_img">
+											<img
+												src="assets/images/icons/Key_icon2.png"
+												alt="icon"
+												class="img-fluid"
+											/>
+										</div>
+										<div class="key_points_item_text">
+											<h3>Secure Bridge</h3>
+											<p>
+												But I must explain to you how all this mistaken idea of
+												new gem denouncing pleasure and praising pain
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div
+										class="key_points_items wow fadeInUp"
+										data-wow-delay="0.4s"
+										data-wow-duration="0.6s"
+										style="
+											visibility: visible;
+											animation-duration: 0.6s;
+											animation-delay: 0.4s;
+											animation-name: fadeInUp;
+										"
+									>
+										<div class="key_points_item_img">
+											<img
+												src="assets/images/icons/Key_icon3.png"
+												alt="icon"
+												class="img-fluid"
+											/>
+										</div>
+										<div class="key_points_item_text">
+											<h3>Fair Allocations</h3>
+											<p>
+												When our power of choice is untrammelled and when
+												nothing prevents our being able to do what we like best
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-3 col-sm-6">
+									<div
+										class="key_points_items wow fadeInUp"
+										data-wow-delay="0.5s"
+										data-wow-duration="0.7s"
+										style="
+											visibility: visible;
+											animation-duration: 0.7s;
+											animation-delay: 0.5s;
+											animation-name: fadeInUp;
+										"
+									>
+										<div class="key_points_item_img">
+											<img
+												src="assets/images/icons/Key_icon4.png"
+												alt="icon"
+												class="img-fluid"
+											/>
+										</div>
+										<div class="key_points_item_text">
+											<h3>Autopilot Liquidity</h3>
+											<p>
+												But in certain circumstances and owing to the claims of
+												duty or the obligations of business it will frequently
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Key Points Section End -->
+
+			<!-- Tier_System Start -->
+			<div class="tier_system_section main-project-area">
+				<div class="container">
+					<div class="sec-inner align-items-center mb-30">
+						<div class="sec-heading">
+							<div class="sub-inner mb-15">
+								<span class="sub-title">Allocations</span>
+								<img
+									class="heading-left-image"
+									src="assets/images/icons/steps.png"
+									alt="Steps-Image"
+								/>
+							</div>
+							<h2 class="title">Tier System</h2>
+						</div>
+						<div class="tier_system_content">
+							<div
+								class="tier_system_headings wow fadeInUp"
+								data-wow-delay="0.2s"
+								data-wow-duration="0.4s"
+								style="
+									visibility: visible;
+									animation-duration: 0.4s;
+									animation-delay: 0.2s;
+									animation-name: fadeInUp;
+								"
+							>
+								<ul>
+									<li class="tiers_headings">Tiers</li>
+									<li class="staking_headings">Staking</li>
+									<li class="allocation_headings">allocation</li>
+									<li class="requirements_headings">Requirements</li>
+									<li class="kyc_headings">KYC</li>
+									<li class="m-0 weight_headings">Weight</li>
+								</ul>
+							</div>
+							<div
+								class="tier_system_items wow fadeInUp"
+								data-wow-delay="0.3s"
+								data-wow-duration="0.5s"
+								style="
+									visibility: visible;
+									animation-duration: 0.5s;
+									animation-delay: 0.3s;
+									animation-name: fadeInUp;
+								"
+							>
+								<ul>
+									<li class="tiers_item">
+										<span
+											><img
+												src="assets/images/icons/iconSilver.svg"
+												alt="icon"
+												class="img-fluid" /></span
+										><strong>Silver</strong>
+									</li>
+									<li class="staking_item">$ 10,000</li>
+									<li class="allocation_item">Lottery (20%)</li>
+									<li class="requirements_item">Whitelist Task</li>
+									<li class="kyc_item">No</li>
+									<li class="weight_item">2.5x</li>
+								</ul>
+								<div class="bg-shape">
+									<img
+										src="assets/images/bg/BGShape.svg"
+										alt="img"
+										class="img-fluid"
+									/>
+								</div>
+								<span class="border-shadow-red1"></span>
+								<span class="border-shadow-red2"></span>
+								<span class="border-shadow-green1"></span>
+								<span class="border-shadow-green2"></span>
+							</div>
+							<div
+								class="tier_system_items wow fadeInUp"
+								data-wow-delay="0.4s"
+								data-wow-duration="0.6s"
+								style="
+									visibility: visible;
+									animation-duration: 0.6s;
+									animation-delay: 0.4s;
+									animation-name: fadeInUp;
+								"
+							>
+								<ul>
+									<li class="tiers_item">
+										<span
+											><img
+												src="assets/images/icons/iconBronze.svg"
+												alt="icon"
+												class="img-fluid" /></span
+										><strong>Bronze</strong>
+									</li>
+									<li class="staking_item">$ 50,000</li>
+									<li class="allocation_item">Lottery (50%)</li>
+									<li class="requirements_item">Whitelist Task</li>
+									<li class="kyc_item">No</li>
+									<li class="weight_item">No</li>
+								</ul>
+								<div class="bg-shape">
+									<img
+										src="assets/images/bg/BGShape.svg"
+										alt="img"
+										class="img-fluid"
+									/>
+								</div>
+								<span class="border-shadow-red1"></span>
+								<span class="border-shadow-red2"></span>
+								<span class="border-shadow-green1"></span>
+								<span class="border-shadow-green2"></span>
+							</div>
+							<div
+								class="tier_system_items wow fadeInUp"
+								data-wow-delay="0.5s"
+								data-wow-duration="0.7s"
+								style="
+									visibility: visible;
+									animation-duration: 0.7s;
+									animation-delay: 0.5s;
+									animation-name: fadeInUp;
+								"
+							>
+								<ul>
+									<li class="tiers_item">
+										<span
+											><img
+												src="assets/images/icons/icongold.svg"
+												alt="icon"
+												class="img-fluid" /></span
+										><strong>Gold</strong>
+									</li>
+									<li class="staking_item">$ 100,000</li>
+									<li class="allocation_item">Guaranteed allocation</li>
+									<li class="requirements_item">No</li>
+									<li class="kyc_item">Yes</li>
+									<li class="weight_item">5.9x</li>
+								</ul>
+								<div class="bg-shape">
+									<img
+										src="assets/images/bg/BGShape.svg"
+										alt="img"
+										class="img-fluid"
+									/>
+								</div>
+								<span class="border-shadow-red1"></span>
+								<span class="border-shadow-red2"></span>
+								<span class="border-shadow-green1"></span>
+								<span class="border-shadow-green2"></span>
+							</div>
+							<div
+								class="tier_system_items wow fadeInUp"
+								data-wow-delay="0.6s"
+								data-wow-duration="0.8s"
+								style="
+									visibility: hidden;
+									animation-duration: 0.8s;
+									animation-delay: 0.6s;
+									animation-name: none;
+								"
+							>
+								<ul>
+									<li class="tiers_item">
+										<span
+											><img
+												src="assets/images/icons/iconDaimond.svg"
+												alt="icon"
+												class="img-fluid" /></span
+										><strong>Diamond</strong>
+									</li>
+									<li class="staking_item">$ 500,000</li>
+									<li class="allocation_item">Guaranteed allocation</li>
+									<li class="requirements_item">No</li>
+									<li class="kyc_item">Yes</li>
+									<li class="weight_item">7.0x</li>
+								</ul>
+								<div class="bg-shape">
+									<img
+										src="assets/images/bg/BGShape.svg"
+										alt="img"
+										class="img-fluid"
+									/>
+								</div>
+								<span class="border-shadow-red1"></span>
+								<span class="border-shadow-red2"></span>
+								<span class="border-shadow-green1"></span>
+								<span class="border-shadow-green2"></span>
+							</div>
+							<div
+								class="tier_system_items wow fadeInUp"
+								data-wow-delay="0.7s"
+								data-wow-duration="0.9s"
+								style="
+									visibility: hidden;
+									animation-duration: 0.9s;
+									animation-delay: 0.7s;
+									animation-name: none;
+								"
+							>
+								<ul>
+									<li class="tiers_item">
+										<span
+											><img
+												src="assets/images/icons/iconPlatinum.svg"
+												alt="icon"
+												class="img-fluid" /></span
+										><strong>Platinum</strong>
+									</li>
+									<li class="staking_item">$ 10,000,000</li>
+									<li class="allocation_item">Guaranteed allocation</li>
+									<li class="requirements_item">No</li>
+									<li class="kyc_item">Yes</li>
+									<li class="weight_item">10.5x</li>
+								</ul>
+								<div class="bg-shape">
+									<img
+										src="assets/images/bg/BGShape.svg"
+										alt="img"
+										class="img-fluid"
+									/>
+								</div>
+								<span class="border-shadow-red1"></span>
+								<span class="border-shadow-red2"></span>
+								<span class="border-shadow-green1"></span>
+								<span class="border-shadow-green2"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Tier_System Section End -->
+
+			<!-- Tokenomics Section Start -->
+			<div class="tokenomics_section main-project-area">
+				<div class="container">
+					<div class="sec-inner align-items-center mb-30">
+						<div class="sec-heading">
+							<div class="sub-inner mb-15">
+								<span class="sub-title">statistics</span>
+								<img
+									class="heading-left-image"
+									src="assets/images/icons/steps.png"
+									alt="Steps-Image"
+								/>
+							</div>
+							<h2 class="title mb-0">Tokenomics</h2>
+						</div>
+						<div class="tokenomics_contents">
+							<div class="row">
+								<div class="col-md-6">
+									<div
+										class="tokenomics_contents_left wow fadeInLeft"
+										data-wow-delay="0.2s"
+										data-wow-duration="0.4s"
+										style="
+											visibility: hidden;
+											animation-duration: 0.4s;
+											animation-delay: 0.2s;
+											animation-name: none;
+										"
+									>
+										<h3 class="counter-number">
+											Total Supply : <span class="counter">10,000,000</span>
+										</h3>
+										<h3 class="counter-number">
+											Public Sale : $<span class="counter">0.002</span>
+										</h3>
+										<div class="tokenomics_list_sect">
+											<ul>
+												<li>
+													<span class="farming_pool"></span>
+													<div class="tokenomics_list_text">
+														<h4>Farming Pool</h4>
+														<h5 class="counter-number">
+															<span class="counter">29.8</span>%
+														</h5>
+													</div>
+												</li>
+												<li>
+													<span class="staking"></span>
+													<div class="tokenomics_list_text">
+														<h4>Staking</h4>
+														<h5 class="counter-number">
+															<span class="counter">14.50</span>%
+														</h5>
+													</div>
+												</li>
+												<li>
+													<span class="ecosystem"></span>
+													<div class="tokenomics_list_text">
+														<h4>Ecosystem</h4>
+														<h5 class="counter-number">
+															<span class="counter">10.50</span>%
+														</h5>
+													</div>
+												</li>
+												<li>
+													<span class="advisors"></span>
+													<div class="tokenomics_list_text">
+														<h4>Advisors</h4>
+														<h5 class="counter-number">
+															<span class="counter">8.00</span>%
+														</h5>
+													</div>
+												</li>
+											</ul>
+											<ul class="m-0">
+												<li>
+													<span class="private_sale"></span>
+													<div class="tokenomics_list_text">
+														<h4>Private Sale</h4>
+														<h5 class="counter-number">
+															<span class="counter">25.00</span>%
+														</h5>
+													</div>
+												</li>
+												<li>
+													<span class="liquidity"></span>
+													<div class="tokenomics_list_text">
+														<h4>Liquidity</h4>
+														<h5 class="counter-number">
+															<span class="counter">12.00</span>%
+														</h5>
+													</div>
+												</li>
+												<li>
+													<span class="marketing"></span>
+													<div class="tokenomics_list_text">
+														<h4>Marketing</h4>
+														<h5 class="counter-number">
+															<span class="counter">9.00</span>%
+														</h5>
+													</div>
+												</li>
+												<li>
+													<span class="advisors"></span>
+													<div class="tokenomics_list_text">
+														<h4>Team</h4>
+														<h5 class="counter-number">
+															<span class="counter">5.80</span>%
+														</h5>
+													</div>
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div
+										class="tokenomics_contents_right wow fadeInRight"
+										data-wow-delay="0.2s"
+										data-wow-duration="0.4s"
+										style="
+											visibility: hidden;
+											animation-duration: 0.4s;
+											animation-delay: 0.2s;
+											animation-name: none;
+										"
+									>
+										<div class="tokenomics_contents_right_img">
+											<img
+												src="assets/images/homeV2/piechart.png"
+												alt="img"
+												class="img-fluid"
+											/>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Tokenomics Section End -->
+
+			<!-- Multi-Chain Support Section start -->
+			<div class="multi_chain_support_sect">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div
+								class="multi_chain_support_left_sect wow fadeInLeft"
+								data-wow-delay="0.2s"
+								data-wow-duration="0.4s"
+								style="
+									visibility: hidden;
+									animation-duration: 0.4s;
+									animation-delay: 0.2s;
+									animation-name: none;
+								"
+							>
+								<div class="multi_chain_support_img">
+									<img
+										src="assets/images/homeV2/Multi_Chain_Support.png"
+										alt="img"
+										class="img-fluid"
+									/>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div
+								class="multi_chain_support_right_sect wow fadeInRight"
+								data-wow-delay="0.2s"
+								data-wow-duration="0.4s"
+								style="
+									visibility: hidden;
+									animation-duration: 0.4s;
+									animation-delay: 0.2s;
+									animation-name: none;
+								"
+							>
+								<div class="sec-inner align-items-center mb-30">
+									<div class="sec-heading">
+										<div class="sub-inner mb-15">
+											<span class="sub-title">Integration</span>
+											<img
+												class="heading-left-image"
+												src="assets/images/icons/steps.png"
+												alt="Steps-Image"
+											/>
+										</div>
+										<h2 class="title mb-0">Multi-Chain Support</h2>
+									</div>
+									<div class="multi_chain_support_right_content">
+										<p>
+											It must explain to you how all this mistaken idea of new
+											gem denouncing pleasure and praising pain that they cannot
+											foresee The gain and trouble that are bound to ensue.
+										</p>
+										<div class="multi_chain_support_right_list">
+											<ul>
+												<li>
+													<span
+														><img
+															src="assets/images/icons/icon-Check.svg"
+															alt="img"
+															class="img-fluid" /></span
+													>Binance Smart Chain
+												</li>
+												<li>
+													<span
+														><img
+															src="assets/images/icons/icon-Check.svg"
+															alt="img"
+															class="img-fluid" /></span
+													>Ethereum
+												</li>
+												<li>
+													<span
+														><img
+															src="assets/images/icons/icon-Check.svg"
+															alt="img"
+															class="img-fluid" /></span
+													>Polygon (Matic)
+												</li>
+											</ul>
+											<ul class="m-0">
+												<li>
+													<span
+														><img
+															src="assets/images/icons/icon-Check.svg"
+															alt="img"
+															class="img-fluid" /></span
+													>Avalanche
+												</li>
+												<li>
+													<span
+														><img
+															src="assets/images/icons/icon-Check.svg"
+															alt="img"
+															class="img-fluid" /></span
+													>Fuse
+												</li>
+												<li>
+													<span
+														><img
+															src="assets/images/icons/icon-Check.svg"
+															alt="img"
+															class="img-fluid" /></span
+													>OKEX Chain
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Multi-Chain Support Section End -->
+
+			<!-- RoadMapV2 Section Start -->
+			<div class="roadmap_v2_section main-project-area">
+				<div class="container">
+					<div
+						class="sec-inner align-items-center d-flex justify-content-between flex-wrap mb-30"
+					>
+						<div class="sec-heading">
+							<div class="sub-inner mb-15">
+								<span class="sub-title">Our Goals</span>
+								<img
+									class="heading-left-image"
+									src="assets/images/icons/steps.png"
+									alt="Steps-Image"
+								/>
+							</div>
+							<h2 class="title">ROADMAPs</h2>
+						</div>
+						<div class="gamfi-btn-area roadmap-tab-btns">
+							<ul>
+								<!-- <li
+									class="tablinks m-0"
+									onclick="openCity(event, 'roadmap_v2_2021')"
+								>
+									<button class="readon white-btn black-shap m-0">
+										<span class="btn-text">2021</span>
+										<span class="hover-shape1"></span>
+										<span class="hover-shape2"></span>
+										<span class="hover-shape3"></span>
+									</button>
+								</li>
+
+								<li
+									class="tablinks"
+									onclick="openCity(event, 'roadmap_v2_2022')"
+								>
+									<button class="readon white-btn black-shape m-0">
+										<span class="btn-text">2022</span>
+										<span class="hover-shape1"></span>
+										<span class="hover-shape2"></span>
+										<span class="hover-shape3"></span>
+									</button>
+								</li> -->
+
+								<li
+									class="tablinks active"
+									onclick="openCity(event, 'roadmap_v2_2023')"
+									id="defaultOpen"
+								>
+									<button class="readon white-btn black-shape m-0">
+										<span class="btn-text">2023</span>
+										<span class="hover-shape1"></span>
+										<span class="hover-shape2"></span>
+										<span class="hover-shape3"></span>
+									</button>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="roadmap_v2_tab_content_sect">
+						<div class="roadmap_shape">
+							<img
+								src="assets/images/bg/roadMap_Line.svg"
+								alt=""
+								class="img-fluid"
+							/>
+						</div>
+						<!-- <div
+							id="roadmap_v2_2021"
+							class="tabcontent animate_opacity"
+							style="display: none"
+						>
+							<div class="roadmap_v2_tab_content roadmap_v2_tab_content_2021">
+								<div class="roadmap_slick_slider_section">
+									<div class="row m-0">
+										<div class="col-md-4 col-m-6">
+											<div class="roadmap_contents">
+												<h3>Q1 2021</h3>
+												<div class="roadmap_list_sect">
+													<div class="check_icon_bg">
+														<img
+															src="assets/images/icons/roadmapChackicon.svg"
+															alt=""
+															class="img-fluid"
+														/>
+													</div>
+													<ul>
+														<li>
+															<span
+																><img
+																	src="assets/images/kycimg/RMcheckicon.svg"
+																	alt=""
+																	class="img-fluid" /></span
+															>Seed Sale
+														</li>
+														<li>
+															<span
+																><img
+																	src="assets/images/kycimg/RMcheckicon.svg"
+																	alt=""
+																	class="img-fluid" /></span
+															>IDO &amp; Token DEX Listing
+														</li>
+														<li>
+															<span
+																><img
+																	src="assets/images/kycimg/RMcheckicon.svg"
+																	alt=""
+																	class="img-fluid" /></span
+															>Contract Audit
+														</li>
+														<li>
+															<span
+																><img
+																	src="assets/images/kycimg/RMcheckicon.svg"
+																	alt=""
+																	class="img-fluid" /></span
+															>Staking
+														</li>
+														<li class="m-0">
+															<span
+																><img
+																	src="assets/images/kycimg/RMcheckicon.svg"
+																	alt=""
+																	class="img-fluid" /></span
+															>Integration of POLYGON
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-4 col-m-6">
+											<div class="roadmap_contents">
+												<h3>Q2 2021</h3>
+												<div class="roadmap_list_sect">
+													<div class="check_icon_bg">
+														<img
+															src="assets/images/icons/roadmapChackicon.svg"
+															alt=""
+															class="img-fluid"
+														/>
+													</div>
+													<ul>
+														<li>
+															<span
+																><img
+																	src="assets/images/kycimg/RMcheckicon.svg"
+																	alt=""
+																	class="img-fluid" /></span
+															>Launch on GamFi
+														</li>
+														<li>
+															<span
+																><img
+																	src="assets/images/kycimg/RMcheckicon.svg"
+																	alt=""
+																	class="img-fluid"
+															/></span>
+															Auction system integration.
+														</li>
+														<li>
+															<span
+																><img
+																	src="assets/images/kycimg/RMcheckicon.svg"
+																	alt=""
+																	class="img-fluid" /></span
+															>Mobile app for iOS and Android.
+														</li>
+														<li>
+															<span
+																><img
+																	src="assets/images/kycimg/RMcheckicon.svg"
+																	alt=""
+																	class="img-fluid" /></span
+															>Development of NFT Marketplace
+														</li>
+														<li>
+															<span
+																><img
+																	src="assets/images/kycimg/RMcheckicon.svg"
+																	alt=""
+																	class="img-fluid" /></span
+															>Game launch
+														</li>
+														<li class="m-0">
+															<span
+																><img
+																	src="assets/images/kycimg/RMcheckicon.svg"
+																	alt=""
+																	class="img-fluid" /></span
+															>Website with MVP Release
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-4 col-m-6">
+											<div class="roadmap_contents">
+												<h3>Q3 2021</h3>
+												<div class="roadmap_list_sect">
+													<div class="check_icon_bg">
+														<img
+															src="assets/images/icons/roadmapChackicon.svg"
+															alt=""
+															class="img-fluid"
+														/>
+													</div>
+													<ul>
+														<li>
+															<span
+																><img
+																	src="assets/images/kycimg/RMcheckicon.svg"
+																	alt=""
+																	class="img-fluid" /></span
+															>Launchpad Release
+														</li>
+														<li>
+															<span
+																><img
+																	src="assets/images/kycimg/RMcheckicon.svg"
+																	alt=""
+																	class="img-fluid" /></span
+															>Access for indie game developers
+														</li>
+														<li>
+															<span
+																><img
+																	src="assets/images/kycimg/RMcheckicon.svg"
+																	alt=""
+																	class="img-fluid" /></span
+															>New Staking Tiers
+														</li>
+														<li class="m-0">
+															<span
+																><img
+																	src="assets/images/kycimg/RMcheckicon.svg"
+																	alt=""
+																	class="img-fluid" /></span
+															>Public token sell
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div
+							id="roadmap_v2_2022"
+							class="tabcontent animate_opacity"
+							style="display: none"
+						>
+							<div class="roadmap_v2_tab_content roadmap_v2_tab_content_2022">
+								<div class="roadmap_slick_slider_section">
+									<div class="row m-0">
+										<div class="col-md-4 col-sm-6">
+											<div class="roadmap_contents">
+												<h3>Q1 2022</h3>
+												<div class="roadmap_list_sect">
+													<div class="check_icon_bg">
+														<img
+															src="assets/images/icons/roadmapChackicon.svg"
+															alt=""
+															class="img-fluid"
+														/>
+													</div>
+													<ul>
+														<li>
+															<span
+																><img
+																	src="assets/images/kycimg/RMcheckicon.svg"
+																	alt=""
+																	class="img-fluid" /></span
+															>Seed Sale
+														</li>
+														<li>
+															<span
+																><img
+																	src="assets/images/kycimg/RMcheckicon.svg"
+																	alt=""
+																	class="img-fluid" /></span
+															>IDO &amp; Token DEX Listing
+														</li>
+														<li>
+															<span
+																><img
+																	src="assets/images/kycimg/RMcheckicon.svg"
+																	alt=""
+																	class="img-fluid" /></span
+															>Contract Audit
+														</li>
+														<li>
+															<span
+																><img
+																	src="assets/images/kycimg/RMcheckicon.svg"
+																	alt=""
+																	class="img-fluid" /></span
+															>Staking
+														</li>
+														<li class="m-0">
+															<span
+																><img
+																	src="assets/images/kycimg/RMcheckicon.svg"
+																	alt=""
+																	class="img-fluid" /></span
+															>Integration of POLYGON
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-4 col-sm-6">
+											<div class="roadmap_contents">
+												<h3>Q2 2022</h3>
+												<div class="roadmap_list_sect">
+													<div class="check_icon_bg">
+														<img
+															src="assets/images/icons/roadmapChackicon.svg"
+															alt=""
+															class="img-fluid"
+														/>
+													</div>
+													<ul>
+														<li>
+															<span
+																><img
+																	src="assets/images/kycimg/RMcheckicon.svg"
+																	alt=""
+																	class="img-fluid" /></span
+															>Launch on GamFi
+														</li>
+														<li>
+															<span
+																><img
+																	src="assets/images/kycimg/RMcheckicon.svg"
+																	alt=""
+																	class="img-fluid"
+															/></span>
+															Auction system integration.
+														</li>
+														<li>
+															<span
+																><img
+																	src="assets/images/kycimg/RMcheckicon.svg"
+																	alt=""
+																	class="img-fluid" /></span
+															>Mobile app for iOS and Android.
+														</li>
+														<li>
+															<span
+																><img
+																	src="assets/images/kycimg/munies.svg"
+																	alt=""
+																	class="img-fluid" /></span
+															>Development of NFT Marketplace
+														</li>
+														<li>
+															<span
+																><img
+																	src="assets/images/kycimg/munies.svg"
+																	alt=""
+																	class="img-fluid" /></span
+															>Game launch
+														</li>
+														<li class="m-0">
+															<span
+																><img
+																	src="assets/images/kycimg/munies.svg"
+																	alt=""
+																	class="img-fluid" /></span
+															>Website with MVP Release
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-4 col-sm-6">
+											<div class="roadmap_contents">
+												<h3>Q3 2022</h3>
+												<div class="roadmap_list_sect">
+													<div class="check_icon_bg">
+														<img
+															src="assets/images/icons/roadmapChackicon.svg"
+															alt=""
+															class="img-fluid"
+														/>
+													</div>
+													<ul>
+														<li>
+															<span
+																><img
+																	src="assets/images/kycimg/RMcheckicon.svg"
+																	alt=""
+																	class="img-fluid" /></span
+															>Launchpad Release
+														</li>
+														<li>
+															<span
+																><img
+																	src="assets/images/kycimg/RMcheckicon.svg"
+																	alt=""
+																	class="img-fluid" /></span
+															>Access for indie game developers
+														</li>
+														<li>
+															<span
+																><img
+																	src="assets/images/kycimg/RMcheckicon.svg"
+																	alt=""
+																	class="img-fluid" /></span
+															>New Staking Tiers
+														</li>
+														<li class="m-0">
+															<span
+																><img
+																	src="assets/images/kycimg/RMcheckicon.svg"
+																	alt=""
+																	class="img-fluid" /></span
+															>Public token sell
+														</li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div> -->
+
+						<div
+							id="roadmap_v2_2023"
+							class="tabcontent animate_opacity"
+							style="display: block"
+						>
+							<div class="roadmap_v2_tab_content roadmap_v2_tab_content_2023">
+								<div class="roadmap_slick_slider_section">
+									<div class="row m-0">
+										<!-- <button
+											class="slick-prev slick-arrow"
+											aria-label="Previous"
+											type="button"
+										>
+											Previous
+										</button> -->
+										<div class="">
+											<div class="row">
+												<div class="col-3 col-sm-3">
+													<div class="roadmap_contents">
+														<h3>Q1 2023</h3>
+														<div class="roadmap_list_sect">
+															<div class="check_icon_bg">
+																<img
+																	src="assets/images/icons/roadmapChackicon.svg"
+																	alt=""
+																	class="img-fluid"
+																/>
+															</div>
+															<ul>
+																<li>
+																	<span
+																		><img
+																			src="assets/images/kycimg/RMcheckicon.svg"
+																			alt=""
+																			class="img-fluid" /></span
+																	>Seed Sale
+																</li>
+																<li>
+																	<span
+																		><img
+																			src="assets/images/kycimg/RMcheckicon.svg"
+																			alt=""
+																			class="img-fluid" /></span
+																	>IDO &amp; Token DEX Listing
+																</li>
+																<li>
+																	<span
+																		><img
+																			src="assets/images/kycimg/RMcheckicon.svg"
+																			alt=""
+																			class="img-fluid" /></span
+																	>Contract Audit
+																</li>
+																<li>
+																	<span
+																		><img
+																			src="assets/images/kycimg/munies.svg"
+																			alt=""
+																			class="img-fluid" /></span
+																	>Staking
+																</li>
+																<li class="m-0">
+																	<span
+																		><img
+																			src="assets/images/kycimg/munies.svg"
+																			alt=""
+																			class="img-fluid" /></span
+																	>Integration of POLYGON
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+												<div class="col-3 col-sm-3">
+													<div class="roadmap_contents disable">
+														<h3>Q2 2023</h3>
+														<div class="roadmap_list_sect">
+															<div class="check_icon_bg"></div>
+															<ul>
+																<li>
+																	<span
+																		><img
+																			src="assets/images/kycimg/munies.svg"
+																			alt=""
+																			class="img-fluid" /></span
+																	>Launch on GamFi
+																</li>
+																<li>
+																	<span
+																		><img
+																			src="assets/images/kycimg/munies.svg"
+																			alt=""
+																			class="img-fluid"
+																	/></span>
+																	Auction system integration.
+																</li>
+																<li>
+																	<span
+																		><img
+																			src="assets/images/kycimg/munies.svg"
+																			alt=""
+																			class="img-fluid" /></span
+																	>Mobile app for iOS and Android.
+																</li>
+																<li>
+																	<span
+																		><img
+																			src="assets/images/kycimg/munies.svg"
+																			alt=""
+																			class="img-fluid" /></span
+																	>Development of NFT Marketplace
+																</li>
+																<li>
+																	<span
+																		><img
+																			src="assets/images/kycimg/munies.svg"
+																			alt=""
+																			class="img-fluid" /></span
+																	>Game launch
+																</li>
+																<li class="m-0">
+																	<span
+																		><img
+																			src="assets/images/kycimg/munies.svg"
+																			alt=""
+																			class="img-fluid" /></span
+																	>Website with MVP Release
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+												<div class="col-3 col-sm-3">
+													<div class="roadmap_contents disable">
+														<h3>Q3 2023</h3>
+														<div class="roadmap_list_sect">
+															<div class="check_icon_bg"></div>
+															<ul>
+																<li>
+																	<span
+																		><img
+																			src="assets/images/kycimg/munies.svg"
+																			alt=""
+																			class="img-fluid" /></span
+																	>Launchpad Release
+																</li>
+																<li>
+																	<span
+																		><img
+																			src="assets/images/kycimg/munies.svg"
+																			alt=""
+																			class="img-fluid" /></span
+																	>Access for indie game developers
+																</li>
+																<li>
+																	<span
+																		><img
+																			src="assets/images/kycimg/munies.svg"
+																			alt=""
+																			class="img-fluid" /></span
+																	>New Staking Tiers
+																</li>
+																<li class="m-0">
+																	<span
+																		><img
+																			src="assets/images/kycimg/munies.svg"
+																			alt=""
+																			class="img-fluid" /></span
+																	>Public token sell
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+												<div class="col-3 col-sm-3">
+													<div class="roadmap_contents disable">
+														<h3>Q4 2023</h3>
+														<div class="roadmap_list_sect">
+															<div class="check_icon_bg"></div>
+															<ul>
+																<li>
+																	<span
+																		><img
+																			src="assets/images/kycimg/munies.svg"
+																			alt=""
+																			class="img-fluid" /></span
+																	>Access for indie game developers
+																</li>
+																<li>
+																	<span
+																		><img
+																			src="assets/images/kycimg/munies.svg"
+																			alt=""
+																			class="img-fluid" /></span
+																	>New Staking Tiers
+																</li>
+																<li class="m-0">
+																	<span
+																		><img
+																			src="assets/images/kycimg/munies.svg"
+																			alt=""
+																			class="img-fluid" /></span
+																	>Public token sell
+																</li>
+																<li>
+																	<span
+																		><img
+																			src="assets/images/kycimg/munies.svg"
+																			alt=""
+																			class="img-fluid"
+																	/></span>
+																	Auction system integration.
+																</li>
+																<li>
+																	<span
+																		><img
+																			src="assets/images/kycimg/munies.svg"
+																			alt=""
+																			class="img-fluid" /></span
+																	>Mobile app for iOS and Android.
+																</li>
+															</ul>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- 
+										<button
+											class="slick-next slick-arrow"
+											aria-label="Next"
+											type="button"
+										>
+											Next
+										</button> -->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<span class="farme1"
+					><img
+						src="assets/images/bg/RoadMapV2Fram.png"
+						alt=""
+						class="img-fluid"
+				/></span>
+				<span class="farme2"
+					><img
+						src="assets/images/bg/RoadMapV2Frame2.png"
+						alt=""
+						class="img-fluid"
+				/></span>
+			</div>
+			<!-- RoadMapV2 Section End -->
+
+			<!-- MEET THE CREW Section Start -->
+			<div class="gamfi-team-section pt-115 pb-85 md-pt-75 md-pb-42">
+				<div class="container">
+					<div class="sec-heading text-center mb-55">
+						<div class="sub-inner mb-15">
+							<img
+								class="heading-left-image"
+								src="assets/images/icons/steps2.png"
+								alt="Steps-Image"
+							/>
+							<span class="ml-10 mr-10 sub-title">Team Members</span>
+							<img
+								class="heading-right-image"
+								src="assets/images/icons/steps.png"
+								alt="Steps-Image"
+							/>
+						</div>
+						<h2 class="title">Meet The Crew</h2>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="team-item text-center active-shape">
+								<img src="assets/images/team/team-image.png" alt="Team-image" />
+								<h4 class="team-title mb-8">
+									<a href="teamdetails.html">Berneice Tran</a>
+								</h4>
+								<div class="dsc">Director</div>
+								<ul class="team-icon-list">
+									<li>
+										<a href="#"><i class="icon-linkedin"></i></a>
+									</li>
+									<li>
+										<a href="#"><i class="icon-twitter"></i></a>
+									</li>
+									<li>
+										<a href="#"><i class="icon-facebook"></i></a>
+									</li>
+								</ul>
+								<span class="border-shadow shadow-1"></span>
+								<span class="border-shadow shadow-2"></span>
+								<span class="border-shadow shadow-3"></span>
+								<span class="border-shadow shadow-4"></span>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="team-item text-center active-shape">
+								<img
+									src="assets/images/team/team-image2.png"
+									alt="Team-image"
+								/>
+								<h4 class="team-title mb-8">
+									<a href="teamdetails.html">Genaro Nadel</a>
+								</h4>
+								<div class="dsc">VP of Engineering</div>
+								<ul class="team-icon-list">
+									<li>
+										<a href="#"><i class="icon-linkedin"></i></a>
+									</li>
+									<li>
+										<a href="#"><i class="icon-twitter"></i></a>
+									</li>
+								</ul>
+								<span class="border-shadow shadow-1"></span>
+								<span class="border-shadow shadow-2"></span>
+								<span class="border-shadow shadow-3"></span>
+								<span class="border-shadow shadow-4"></span>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="team-item text-center active-shape">
+								<img
+									src="assets/images/team/team-image3.png"
+									alt="Team-image"
+								/>
+								<h4 class="team-title mb-8">
+									<a href="teamdetails.html">Lynnette Wilkes</a>
+								</h4>
+								<div class="dsc">Fullstack Developer</div>
+								<ul class="team-icon-list">
+									<li>
+										<a href="#"><i class="icon-linkedin"></i></a>
+									</li>
+									<li>
+										<a href="#"><i class="icon-twitter"></i></a>
+									</li>
+								</ul>
+								<span class="border-shadow shadow-1"></span>
+								<span class="border-shadow shadow-2"></span>
+								<span class="border-shadow shadow-3"></span>
+								<span class="border-shadow shadow-4"></span>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="team-item text-center active-shape">
+								<img
+									src="assets/images/team/team-image4.png"
+									alt="Team-image"
+								/>
+								<h4 class="team-title mb-8">
+									<a href="teamdetails.html">Claudia Hicks</a>
+								</h4>
+								<div class="dsc">Sr. Developer</div>
+								<ul class="team-icon-list">
+									<li>
+										<a href="#"><i class="icon-linkedin"></i></a>
+									</li>
+								</ul>
+								<span class="border-shadow shadow-1"></span>
+								<span class="border-shadow shadow-2"></span>
+								<span class="border-shadow shadow-3"></span>
+								<span class="border-shadow shadow-4"></span>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="team-item text-center active-shape">
+								<img
+									src="assets/images/team/team-image5.png"
+									alt="Team-image"
+								/>
+								<h4 class="team-title mb-8">
+									<a href="teamdetails.html">Louis Baker</a>
+								</h4>
+								<div class="dsc">Software Engineer</div>
+								<ul class="team-icon-list">
+									<li>
+										<a href="#"><i class="icon-linkedin"></i></a>
+									</li>
+									<li>
+										<a href="#"><i class="icon-twitter"></i></a>
+									</li>
+								</ul>
+								<span class="border-shadow shadow-1"></span>
+								<span class="border-shadow shadow-2"></span>
+								<span class="border-shadow shadow-3"></span>
+								<span class="border-shadow shadow-4"></span>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="team-item text-center active-shape">
+								<img
+									src="assets/images/team/team-image6.png"
+									alt="Team-image"
+								/>
+								<h4 class="team-title mb-8">
+									<a href="teamdetails.html">Nathan Bean</a>
+								</h4>
+								<div class="dsc">Sr. UI Designer</div>
+								<ul class="team-icon-list">
+									<li>
+										<a href="#"><i class="icon-linkedin"></i></a>
+									</li>
+								</ul>
+								<span class="border-shadow shadow-1"></span>
+								<span class="border-shadow shadow-2"></span>
+								<span class="border-shadow shadow-3"></span>
+								<span class="border-shadow shadow-4"></span>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="team-item text-center active-shape">
+								<img
+									src="assets/images/team/team-image7.png"
+									alt="Team-image"
+								/>
+								<h4 class="team-title mb-8">
+									<a href="teamdetails.html">R. Hawley</a>
+								</h4>
+								<div class="dsc">Jr. UI/UX Designer</div>
+								<ul class="team-icon-list">
+									<li>
+										<a href="#"><i class="icon-linkedin"></i></a>
+									</li>
+									<li>
+										<a href="#"><i class="icon-twitter"></i></a>
+									</li>
+									<li>
+										<a href="#"><i class="icon-facebook"></i></a>
+									</li>
+								</ul>
+								<span class="border-shadow shadow-1"></span>
+								<span class="border-shadow shadow-2"></span>
+								<span class="border-shadow shadow-3"></span>
+								<span class="border-shadow shadow-4"></span>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="team-item text-center active-shape">
+								<img
+									src="assets/images/team/team-image8.png"
+									alt="Team-image"
+								/>
+								<h4 class="team-title mb-8">
+									<a href="teamdetails.html">Pedro Carrera</a>
+								</h4>
+								<div class="dsc">Graphic Designer</div>
+								<ul class="team-icon-list">
+									<li>
+										<a href="#"><i class="icon-linkedin"></i></a>
+									</li>
+									<li>
+										<a href="#"><i class="icon-twitter"></i></a>
+									</li>
+								</ul>
+								<span class="border-shadow shadow-1"></span>
+								<span class="border-shadow shadow-2"></span>
+								<span class="border-shadow shadow-3"></span>
+								<span class="border-shadow shadow-4"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- MEET THE CREW Section End -->
+
+			<!-- Our mentors Section Start -->
+			<div
+				class="gamfi-team-section gamfi_our_mentor_section pt-115 pb-85 md-pt-75 md-pb-42"
+			>
+				<div class="container">
+					<div class="sec-heading text-center mb-55">
+						<div class="sub-inner mb-15">
+							<img
+								class="heading-left-image"
+								src="assets/images/icons/steps2.png"
+								alt="Steps-Image"
+							/>
+							<span class="ml-10 mr-10 sub-title">ADVISORS</span>
+							<img
+								class="heading-right-image"
+								src="assets/images/icons/steps.png"
+								alt="Steps-Image"
+							/>
+						</div>
+						<h2 class="title">Our mentors</h2>
+					</div>
+					<div class="row">
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="team-item text-center active-shape">
+								<img src="assets/images/team/team-image.png" alt="Team-image" />
+								<h4 class="team-title mb-8">
+									<a href="teamdetails.html">Berneice Tran</a>
+								</h4>
+								<div class="dsc">Director</div>
+								<ul class="team-icon-list">
+									<li>
+										<a href="#"><i class="icon-linkedin"></i></a>
+									</li>
+									<li>
+										<a href="#"><i class="icon-twitter"></i></a>
+									</li>
+									<li>
+										<a href="#"><i class="icon-facebook"></i></a>
+									</li>
+								</ul>
+								<span class="border-shadow shadow-1"></span>
+								<span class="border-shadow shadow-2"></span>
+								<span class="border-shadow shadow-3"></span>
+								<span class="border-shadow shadow-4"></span>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="team-item text-center active-shape">
+								<img
+									src="assets/images/team/team-image6.png"
+									alt="Team-image"
+								/>
+								<h4 class="team-title mb-8">
+									<a href="teamdetails.html">Nathan Bean</a>
+								</h4>
+								<div class="dsc">Sr. UI Designer</div>
+								<ul class="team-icon-list">
+									<li>
+										<a href="#"><i class="icon-linkedin"></i></a>
+									</li>
+								</ul>
+								<span class="border-shadow shadow-1"></span>
+								<span class="border-shadow shadow-2"></span>
+								<span class="border-shadow shadow-3"></span>
+								<span class="border-shadow shadow-4"></span>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="team-item text-center active-shape">
+								<img
+									src="assets/images/team/team-image3.png"
+									alt="Team-image"
+								/>
+								<h4 class="team-title mb-8">
+									<a href="teamdetails.html">Lynnette Wilkes</a>
+								</h4>
+								<div class="dsc">Fullstack Developer</div>
+								<ul class="team-icon-list">
+									<li>
+										<a href="#"><i class="icon-linkedin"></i></a>
+									</li>
+									<li>
+										<a href="#"><i class="icon-twitter"></i></a>
+									</li>
+								</ul>
+								<span class="border-shadow shadow-1"></span>
+								<span class="border-shadow shadow-2"></span>
+								<span class="border-shadow shadow-3"></span>
+								<span class="border-shadow shadow-4"></span>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-4 col-sm-6">
+							<div class="team-item text-center active-shape">
+								<img
+									src="assets/images/team/team-image4.png"
+									alt="Team-image"
+								/>
+								<h4 class="team-title mb-8">
+									<a href="teamdetails.html">Claudia Hicks</a>
+								</h4>
+								<div class="dsc">Sr. Developer</div>
+								<ul class="team-icon-list">
+									<li>
+										<a href="#"><i class="icon-linkedin"></i></a>
+									</li>
+								</ul>
+								<span class="border-shadow shadow-1"></span>
+								<span class="border-shadow shadow-2"></span>
+								<span class="border-shadow shadow-3"></span>
+								<span class="border-shadow shadow-4"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Our mentors Section End -->
+
+			<!-- Our mentors Section Start -->
+			<div
+				class="gamfi-team-section gamfi_our_mentor_section pt-115 pb-85 md-pt-75 md-pb-42"
+			>
+				<div class="container">
+					<div class="sec-heading text-center mb-55">
+						<div class="sub-inner mb-15">
+							<img
+								class="heading-left-image"
+								src="assets/images/icons/steps2.png"
+								alt="Steps-Image"
+							/>
+							<span class="ml-10 mr-10 sub-title">backers</span>
+							<img
+								class="heading-right-image"
+								src="assets/images/icons/steps.png"
+								alt="Steps-Image"
+							/>
+						</div>
+						<h2 class="title">Our PARTNERS</h2>
+					</div>
+					<div class="our_partners_content_sect">
+						<ul class="our_partners_list">
+							<li>
+								<img
+									src="assets/images/partner/1.png"
+									alt="logo"
+									class="img-fluid"
+								/>
+							</li>
+							<li>
+								<img
+									src="assets/images/partner/2.png"
+									alt="logo"
+									class="img-fluid"
+								/>
+							</li>
+							<li>
+								<img
+									src="assets/images/partner/3.png"
+									alt="logo"
+									class="img-fluid"
+								/>
+							</li>
+							<li>
+								<img
+									src="assets/images/partner/4.png"
+									alt="logo"
+									class="img-fluid"
+								/>
+							</li>
+							<li>
+								<img
+									src="assets/images/partner/5.png"
+									alt="logo"
+									class="img-fluid"
+								/>
+							</li>
+							<li>
+								<img
+									src="assets/images/partner/6.png"
+									alt="logo"
+									class="img-fluid"
+								/>
+							</li>
+							<li>
+								<img
+									src="assets/images/partner/7.png"
+									alt="logo"
+									class="img-fluid"
+								/>
+							</li>
+							<li>
+								<img
+									src="assets/images/partner/8.png"
+									alt="logo"
+									class="img-fluid"
+								/>
+							</li>
+							<li>
+								<img
+									src="assets/images/partner/9.png"
+									alt="logo"
+									class="img-fluid"
+								/>
+							</li>
+							<li>
+								<img
+									src="assets/images/partner/10.png"
+									alt="logo"
+									class="img-fluid"
+								/>
+							</li>
+							<li>
+								<img
+									src="assets/images/partner/11.png"
+									alt="logo"
+									class="img-fluid"
+								/>
+							</li>
+							<li>
+								<img
+									src="assets/images/partner/12.png"
+									alt="logo"
+									class="img-fluid"
+								/>
+							</li>
+							<li>
+								<img
+									src="assets/images/partner/13.png"
+									alt="logo"
+									class="img-fluid"
+								/>
+							</li>
+							<li>
+								<img
+									src="assets/images/partner/14.png"
+									alt="logo"
+									class="img-fluid"
+								/>
+							</li>
+							<li>
+								<img
+									src="assets/images/partner/15.png"
+									alt="logo"
+									class="img-fluid"
+								/>
+							</li>
+
+							<li class="hidden">
+								<img
+									src="assets/images/partner/partner-image.png"
+									alt="logo"
+									class="img-fluid"
+								/>
+							</li>
+							<li class="hidden">
+								<img
+									src="assets/images/partner/partner-image2.png"
+									alt="logo"
+									class="img-fluid"
+								/>
+							</li>
+							<li class="hidden">
+								<img
+									src="assets/images/partner/partner-image3.png"
+									alt="logo"
+									class="img-fluid"
+								/>
+							</li>
+							<li class="hidden">
+								<img
+									src="assets/images/partner/partner-image4.png"
+									alt="logo"
+									class="img-fluid"
+								/>
+							</li>
+							<li class="hidden">
+								<img
+									src="assets/images/partner/partner-image5.png"
+									alt="logo"
+									class="img-fluid"
+								/>
+							</li>
+						</ul>
+						<div class="show-more-btn-sect">
+							<button class="readon white-btn black-shape show-more-logo-btn">
+								<span class="btn-text btn-text-1">Show More</span>
+								<span class="btn-text btn-text2">Show lese</span>
+								<span class="hover-shape1"></span>
+								<span class="hover-shape2"></span>
+								<span class="hover-shape3"></span>
+							</button>
+						</div>
+						<div class="overlay"></div>
+					</div>
+				</div>
+			</div>
+			<!-- Our mentors Section End -->
+
+			<!-- Our mentors Section Start -->
+			<div
+				class="gamfi-team-section gamfi_FAQ_Sect gamfi_our_mentor_section pt-115 pb-85 md-pt-75 md-pb-42"
+			>
+				<div class="container">
+					<div class="sec-heading text-center mb-55">
+						<div class="sub-inner mb-15">
+							<img
+								class="heading-left-image"
+								src="assets/images/icons/steps2.png"
+								alt="Steps-Image"
+							/>
+							<span class="ml-10 mr-10 sub-title">QUESTIONS &amp; ANSWERS</span>
+							<img
+								class="heading-right-image"
+								src="assets/images/icons/steps.png"
+								alt="Steps-Image"
+							/>
+						</div>
+						<h2 class="title">FREQUENTLY ASKED QUESTIONS</h2>
+					</div>
+					<div class="faq_content_sect">
+						<div class="faq_questions">
+							<h2 class="accordion no-border">
+								What is Gamfi ?
+								<span>
+									<img
+										src="assets/images/icons/plus.svg"
+										alt=""
+										class="img-fluid icon-plus"
+									/>
+									<img
+										src="assets/images/icons/munis.svg"
+										alt=""
+										class="Img-fluid icon-minus"
+									/>
+								</span>
+							</h2>
+							<div class="accordion-panel">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+									do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									Ut enim ad minim veniam, quis nostrud exercitation ullamco
+									laboris nisi ut aliquip ex ea commodo consequat.
+								</p>
+							</div>
+
+							<h2 class="accordion">
+								How we can buy and invest token ?
+								<span>
+									<img
+										src="assets/images/icons/plus.svg"
+										alt=""
+										class="img-fluid icon-plus"
+									/>
+									<img
+										src="assets/images/icons/munis.svg"
+										alt=""
+										class="Img-fluid icon-minus"
+									/>
+								</span>
+							</h2>
+							<div class="accordion-panel">
+								<p>
+									It has roots in a piece of classical Latin literature from 45
+									BC, making it over 2000 years old. Richard McClintock, a Latin
+									professor at Hampden-Sydney College in Virginia, looked up one
+									of the more obscure Latin words, consectetur cites of the word
+									in classical literature.
+								</p>
+							</div>
+
+							<h2 class="accordion">
+								Why we should choose Gamfi ?
+								<span>
+									<img
+										src="assets/images/icons/plus.svg"
+										alt=""
+										class="img-fluid icon-plus"
+									/>
+									<img
+										src="assets/images/icons/munis.svg"
+										alt=""
+										class="Img-fluid icon-minus"
+									/>
+								</span>
+							</h2>
+							<div class="accordion-panel">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+									do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									Ut enim ad minim veniam, quis nostrud exercitation ullamco
+									laboris nisi ut aliquip ex ea commodo consequat.
+								</p>
+							</div>
+
+							<h2 class="accordion">
+								Where we can buy and sell Gamfi NFts ?
+								<span>
+									<img
+										src="assets/images/icons/plus.svg"
+										alt=""
+										class="img-fluid icon-plus"
+									/>
+									<img
+										src="assets/images/icons/munis.svg"
+										alt=""
+										class="Img-fluid icon-minus"
+									/>
+								</span>
+							</h2>
+							<div class="accordion-panel">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+									do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									Ut enim ad minim veniam, quis nostrud exercitation ullamco
+									laboris nisi ut aliquip ex ea commodo consequat.
+								</p>
+							</div>
+
+							<h2 class="accordion">
+								How secure is this token ?
+								<span>
+									<img
+										src="assets/images/icons/plus.svg"
+										alt=""
+										class="img-fluid icon-plus"
+									/>
+									<img
+										src="assets/images/icons/munis.svg"
+										alt=""
+										class="Img-fluid icon-minus"
+									/>
+								</span>
+							</h2>
+							<div class="accordion-panel">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+									do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									Ut enim ad minim veniam, quis nostrud exercitation ullamco
+									laboris nisi ut aliquip ex ea commodo consequat.
+								</p>
+							</div>
+
+							<h2 class="accordion">
+								What is your contract address ?
+								<span>
+									<img
+										src="assets/images/icons/plus.svg"
+										alt=""
+										class="img-fluid icon-plus"
+									/>
+									<img
+										src="assets/images/icons/munis.svg"
+										alt=""
+										class="Img-fluid icon-minus"
+									/>
+								</span>
+							</h2>
+							<div class="accordion-panel">
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
+									do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									Ut enim ad minim veniam, quis nostrud exercitation ullamco
+									laboris nisi ut aliquip ex ea commodo consequat.
+								</p>
+							</div>
+						</div>
+						<h6>
+							Don’t get your answer ? <a href="Get-In-touch.html">Ask Here !</a>
+						</h6>
+					</div>
+				</div>
+			</div>
+			<!-- Our mentors Section End -->
+
+			<!-- Footer Section Start -->
+			<div class="gamfi-footer-section">
+				<div class="container">
+					<div
+						class="footer-cta-area text-center active-shape hover-shape-inner"
+					>
+						<h2 class="title mb-15 footer_titleV2">
+							Get alerts 💌 for new IGOs &amp; IDOs
+						</h2>
+						<div class="dsc mb-40 md-mb-30">
+							Sign up for newsletter to get more IGO/IDO News and Updates
+						</div>
+						<div class="gamfisubscriveSect">
+							<input
+								type="email"
+								placeholder="Email Address"
+								class="wow fadeInUp"
+								data-wow-delay="0.3s"
+								data-wow-duration="0.5s"
+								style="
+									visibility: hidden;
+									animation-duration: 0.5s;
+									animation-delay: 0.3s;
+									animation-name: none;
+								"
+							/>
+							<a
+								class="banner-btn wow fadeInUp black-shape"
+								data-wow-delay="0.3s"
+								data-wow-duration="0.5s"
+								href="igo-apply.html"
+								style="
+									visibility: hidden;
+									animation-duration: 0.5s;
+									animation-delay: 0.3s;
+									animation-name: none;
+								"
+							>
+								<span class="btn-text">SUBSCRIBE</span>
+								<span class="hover-shape1"></span>
+								<span class="hover-shape2"></span>
+								<span class="hover-shape3"></span>
+							</a>
+						</div>
+						<span class="border-shadow shadow-1"></span>
+						<span class="border-shadow shadow-2"></span>
+						<span class="border-shadow shadow-3"></span>
+						<span class="border-shadow shadow-4"></span>
+						<span class="hover-shape-bg hover_shape1"></span>
+						<span class="hover-shape-bg hover_shape2"></span>
+						<span class="hover-shape-bg hover_shape3"></span>
+					</div>
+				</div>
+				<div class="footer-area">
+					<div class="container">
+						<div class="sec-heading text-center">
+							<div class="sub-inner mb-52 mb-mb-30">
+								<img
+									class="heading-right-image"
+									src="assets/images/icons/steps2.png"
+									alt="Steps-Image"
+								/>
+								<span class="sub-title white-color">Find us on Social</span>
+								<img
+									class="heading-left-image"
+									src="assets/images/icons/steps.png"
+									alt="Steps-Image"
+								/>
+							</div>
+						</div>
+						<div class="footer-listing text-center mb-100 md-mb-70 xs-mb-50">
+							<ul class="footer-icon-list">
+								<li>
+									<a href="#"><i class="icon-twitter"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="icon-telegram"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="icon-medium"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="icon-discord"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="icon-linkedin"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="icon-instagram"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="icon-facebook"></i></a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer-logo text-center mb-45">
+							<img src="assets/images/logo.png" alt="Footer-logo" />
+						</div>
+						<div class="footer-mainmenu text-center mb-20">
+							<ul>
+								<li><a href="#">Features</a></li>
+								<li><a href="#">How it works</a></li>
+								<li><a href="#">Token info</a></li>
+								<li><a href="#">About us</a></li>
+								<li><a href="#">Social media</a></li>
+								<li><a href="#">Terms of Service</a></li>
+								<li><a href="#">Privacy Policy</a></li>
+							</ul>
+						</div>
+						<div class="copyright-area text-center mb-0">
+							<div class="dsc mb-37 md-mb-25">
+								Copyright © 2022. All Rights Reserved by
+								<a target="_blank" class="gafi" href="#">GaFi</a>
+							</div>
+						</div>
+						<div class="scrollup text-center">
+							<a href="#gamfi-header"><i class="icon-arrow_up"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Footer Section End -->
+		</div>
+		<!-- Modal Section Start-->
+		<div
+			class="modal fade"
+			id="exampleModal"
+			tabindex="-1"
+			aria-labelledby="exampleModalLabel"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modals-title mb-0" id="exampleModalLabel">
+							Connect Wallet
+						</h4>
+						<button
+							type="button"
+							class="btn-close"
+							data-bs-dismiss="modal"
+							aria-label="Close"
+						>
+							<i class="icon-x"></i>
+						</button>
+					</div>
+					<div class="modal-body">
+						<p class="mb-20">
+							Please select a wallet to connect to this marketplace
+						</p>
+						<div class="connect-section">
+							<ul class="heading-list">
+								<li>
+									<a href="#" class="connect-meta"
+										><span
+											><img
+												src="assets/images/icons/meta-mask.png"
+												alt="Meta-mask-Image" /></span
+										>MetaMask</a
+									>
+								</li>
+								<li>
+									<a href="#"
+										><span
+											><img
+												src="assets/images/icons/coinbase.png"
+												alt="Coinbase-Image" /></span
+										>Coinbase</a
+									>
+								</li>
+								<li>
+									<a href="#"
+										><span
+											><img
+												src="assets/images/icons/trust.png"
+												alt="Trust-Image" /></span
+										>Trust Wallet</a
+									>
+								</li>
+								<li>
+									<a href="#"
+										><span
+											><img
+												src="assets/images/icons/wallet.png"
+												alt="Wallet-Image" /></span
+										>WalletConnect</a
+									>
+								</li>
+							</ul>
+						</div>
+						<p>
+							By connecting your wallet, you agree to our
+							<a href="#"> <span class="modal-title">Terms of Service </span></a
+							>and our
+							<a href="#"> <span class="modal-title"> Privacy Policy</span></a
+							>.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal Section End-->
+
+		<!-- Modal Section Start-->
+		<div
+			class="modal fade"
+			id="download-metamask"
+			tabindex="-1"
+			aria-labelledby="exampleModalLabel"
+			aria-hidden="true"
+		>
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h4 class="modals-title mb-0" id="exampleModalLabel">
+							Connect Wallet
+						</h4>
+						<button
+							type="button"
+							class="btn-close"
+							data-bs-dismiss="modal"
+							aria-label="Close"
+						>
+							<i class="icon-x"></i>
+						</button>
+					</div>
+					<div class="modal-body">
+						<p class="mb-20">
+							Please download &amp; install metamask extension!
+						</p>
+						<div class="connect-section">
+							<ul class="heading-list">
+								<li>
+									<a target="_blank" href="https://metamask.io/download/">
+										<span>
+											<img
+												src="assets/images/icons/meta-mask.png"
+												alt="Meta-mask-Image"
+											/>
+										</span>
+										MetaMask
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal Section End-->
+		<div class="gamfi_footer_btn_sect">
+			<div class="gamfi_footer_btn_content">
+				<span class="frame_left"
+					><img
+						src="assets/images/homeV2/bottomShape-left.png"
+						alt="img"
+						class="img-fluid"
+				/></span>
+				<span class="frame_right"
+					><img
+						src="assets/images/homeV2/bottomShape-right.png"
+						alt="img"
+						class="img-fluid"
+				/></span>
+				<div class="rocket">
+					<img
+						src="assets/images/homeV2/rocket.png"
+						alt="img"
+						class="img-fluid"
+					/>
+				</div>
+				<a href="igo-apply.html">APPLY FOR PROJECT</a>
+			</div>
+		</div>
+
+		<!-- Meta Mask Connect -->
+		<script src="assets/js/web3.min.js"></script>
+		<script src="assets/js/metamask.js"></script>
+		<!-- modernizr js -->
+		<script src="assets/js/modernizr-2.8.3.min.js"></script>
+		<!-- jquery latest version -->
+		<script src="assets/js/jquery.min.js"></script>
+		<!-- Bootstrap v4.4.1 js -->
+		<script src="assets/js/bootstrap.min.js"></script>
+		<!-- popup.min js -->
+		<script src="assets/js/jquery.magnific-popup.min.js"></script>
+		<!-- imagesloaded.pkgd.min js -->
+		<script src="assets/js/imagesloaded.pkgd.min.js"></script>
+		<!-- wow js -->
+		<script src="assets/js/wow.min.js"></script>
+		<!-- jquery counterup js -->
+		<script src="assets/js/jquery.counterup.min.js"></script>
+		<!-- counter top js -->
+		<script src="assets/js/waypoints.min.js"></script>
+		<!-- owl.carousel js -->
+		<script src="assets/js/owl.carousel.min.js"></script>
+		<!-- plugins js -->
+		<script src="assets/js/plugins.js"></script>
+		<!-- Time Counter js -->
+		<script src="assets/js/time-counter.js"></script>
+		<!-- slickSlider js -->
+		<script src="assets/js/slick.min.js"></script>
+		<script src="assets/js/metamaskhandler.js"></script>
+
+		<!-- main js -->
+		<script src="assets/js/main.js"></script>
+		<!-- home2 js -->
+		<script src="assets/js/custom/home2.js"></script>
+	</body>
+</html>
